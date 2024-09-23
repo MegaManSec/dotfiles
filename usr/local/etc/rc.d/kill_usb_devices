@@ -1,0 +1,59 @@
+#!/bin/sh
+
+# PROVIDE: kill_usb_devices
+# KEYWORD: resume
+#
+# Enable with kill_usb_devices=YES in /etc/rc.conf
+#
+# Set kill_usb_devices_list to a comma-separated list of usb devices to be shutdown.
+#
+# Example:
+# Given `usbconfig`:
+#   ugen0.1: <Intel XHCI root HUB> at usbus0, cfg=0 md=HOST spd=SUPER (5.0Gbps) pwr=SAVE (0mA)
+#   ugen0.2: <Broadcom Corp. Bluetooth USB Host Controller> at usbus0, cfg=0 md=HOST spd=FULL (12Mbps) pwr=ON (0mA)
+#   ugen0.3: <Apple Inc. Apple Internal Keyboard / Trackpad> at usbus0, cfg=0 md=HOST spd=FULL (12Mbps) pwr=ON (500mA)
+#   ugen0.4: <Apple Card Reader> at usbus0, cfg=0 md=HOST spd=SUPER (5.0Gbps) pwr=ON (224mA)
+#
+# A valid value of kill_usb_devices_list would be:
+# kill_usb_devices_list="Intel XHCI root HUB,Broadcom Corp. Bluetooth USB Host Controller"
+#
+
+. /etc/rc.subr
+
+: ${kill_usb_devices_enable=NO}
+: ${kill_usb_devices_list=""}
+
+name="kill_usb_devices"
+rcvar="kill_usb_devices_enable"
+
+USBCONFIG="/usr/sbin/usbconfig"
+GREP="/usr/bin/grep"
+
+load_rc_config $name
+
+extra_commands="resume"
+start_cmd="kill_power"
+resume_cmd="kill_power"
+
+kill_power() {
+  [ -z "$kill_usb_devices_list" ] && exit 0
+  IFS=","
+
+  for usb_item in $kill_usb_devices_list; do
+    usbdev="$($USBCONFIG | $GREP -m1 -- "$usb_item")"
+
+    [ -z "$usbdev" ] && continue
+
+    ugen="${usbdev%% *}"
+    ugen="${ugen%:}"
+
+    [ -z "$ugen" ] && continue
+
+    $USBCONFIG -d "$ugen" power_off
+  done
+
+  unset IFS
+  exit 0
+}
+
+run_rc_command "$1"

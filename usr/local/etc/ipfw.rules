@@ -1,0 +1,8 @@
+#!/bin/sh
+ipfw -q flush
+ipfw -q add allow ip from any to any via lo0
+#ipfw -q add allow ip from 10.0.0.1 to 10.0.0.2 dst-port 53
+#ipfw -q add allow ip from 10.0.0.2 to 10.0.0.1 src-port 53
+ipfw -q add deny ip from any to any dst-port 53
+ipfw -q add deny ip from any to any src-port 53
+ipfw -q add allow ip from any to any

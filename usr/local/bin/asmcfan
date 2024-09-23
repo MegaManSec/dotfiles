@@ -1,0 +1,36 @@
+#!/bin/sh
+
+if ! kldstat | grep -q asmc.ko
+then
+  kldload asmc
+fi
+
+TEMP=$(sysctl -n dev.cpu.0.temperature | cut -c 1-2)
+CUR_SPEED=$(sysctl -n dev.asmc.0.fan.0.targetspeed)
+SET_SPEED=0
+
+if [ "$TEMP" -le 48 ]; then
+  SET_SPEED=2000
+elif [ "$TEMP" -le 56 ]; then
+  SET_SPEED=2800
+elif [ "$TEMP" -le 62 ]; then
+  SET_SPEED=3000
+elif [ "$TEMP" -le 68 ]; then
+  SET_SPEED=3200
+elif [ "$TEMP" -le 84 ]; then
+  SET_SPEED=4000
+elif [ "$TEMP" -le 88 ]; then
+  SET_SPEED=4400
+elif [ "$TEMP" -le 92 ]; then
+  SET_SPEED=5000
+elif [ "$TEMP" -le 96 ]; then
+  SET_SPEED=6000
+else
+  SET_SPEED=6800
+fi
+
+if [ "$SET_SPEED" -ne "$CUR_SPEED" ]; then
+  sysctl dev.asmc.0.fan.0.minspeed="$SET_SPEED" dev.asmc.0.fan.1.minspeed="$SET_SPEED"
+fi
+
+exit 0

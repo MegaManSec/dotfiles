@@ -1,0 +1,3 @@
+set nowrap
+set fill 78 # # 107 #78
+include /usr/local/share/nano/*.nanorc

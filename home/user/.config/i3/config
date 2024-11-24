@@ -181,7 +181,7 @@ bindsym XF86KbdBrightnessUp exec asmctl key up
 
 bindsym XF86AudioLowerVolume exec mixer vol -2
 bindsym XF86AudioRaiseVolume exec mixer vol +2
-bindsym XF86AudioMute exec ~/scripts/mixer.sh
+bindsym XF86AudioMute exec /usr/local/bin/mixer
 
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioPlay exec playerctl play-pause

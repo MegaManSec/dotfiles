@@ -171,7 +171,7 @@ bindsym $mod+Shift+r restart
 # TODO: Make this a mode?
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
-bindsym Mode_Switch+Shift+4 --release exec scrot -s /home/user/Pictures/Screenshots/Screenshot-%Y-%m-%d:%H:%M:%S.png -e 'ln -fs "$f" /tmp/latest-screenshot.png'
+bindsym Mode_Switch+Shift+4 --release exec scrot -s ~/Pictures/Screenshots/Screenshot-%Y-%m-%d:%H:%M:%S.png -e 'ln -fs "$f" /tmp/latest-screenshot.png'
 
 bindsym XF86MonBrightnessDown exec asmctl video down
 bindsym XF86MonBrightnessUp exec asmctl video up

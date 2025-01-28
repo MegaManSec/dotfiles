@@ -65,3 +65,16 @@ if [ $? -ge 2 ]; then
   rm "$SSH_AUTH_SOCK" &>/dev/null
   ssh-agent -a "$SSH_AUTH_SOCK" >/dev/null
 fi
+
+alias hcurl="curl -sS -D - $1 -o /dev/null"
+if command -v ngrok &>/dev/null; then
+  eval "$(ngrok completion)"
+fi
+
+urlencode() {
+  if [ -p /dev/stdin ]; then
+    jq -sRr @uri
+  else
+    printf "$1"| jq -sRr @uri
+  fi
+}

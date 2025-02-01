@@ -70,7 +70,7 @@ case "$OSTYPE" in
 esac
 
 # Aliases
-alias ls='ls -GFh --color'
+alias ls='ls -GFh --color=auto'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'

@@ -43,9 +43,10 @@ case "$OSTYPE" in
 
         # Load GRC and Bash completion
         export GRC_ALIASES=true
-        source "$HOMEBREW_PREFIX/etc/grc.sh"
-        source "$HOMEBREW_PREFIX/etc/bash_completion"
-        source "$HOMEBREW_PREFIX/etc/bash_completion.d/brew"
+        [[ -r "$HOMEBREW_PREFIX/etc/grc.sh" ]] && source "$HOMEBREW_PREFIX/etc/grc.sh"
+        [[ -r "$HOMEBREW_PREFIX/etc/bash_completion" ]] && source "$HOMEBREW_PREFIX/etc/bash_completion"
+        [[ -r "$HOMEBREW_PREFIX/etc/bash_completion.d/brew" ]] && source "$HOMEBREW_PREFIX/etc/bash_completion.d/brew"
+        [[ -r "$HOMEBREW_PREFIX/etc/profile.d/bash_completion.sh" ]] && source "$HOMEBREW_PREFIX/etc/profile.d/bash_completion.sh"
       fi
     fi
 

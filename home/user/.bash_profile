@@ -113,3 +113,16 @@ alias hcurl='curl -sS -D - $1 -o /dev/null'
 if command -v ngrok &>/dev/null; then
   eval "$(ngrok completion)"
 fi
+
+enter_directory() {
+  if [[ "$PWD" == "$PREV_PWD" ]]; then
+    return
+  fi
+  PREV_PWD="$PWD"
+  if [[ -r ".git/config" ]]; then
+    git_email="joshua-  github-$(basename "$PWD" | grep -Eo "[a-zA-Z0-9._+-]+" | head -n1)@joshua.hu"
+    grep -q -- "$git_email" ".git/config" && return
+    git config user.email "$git_email" && echo "Set git email address to $git_email!"
+  fi
+}
+export PROMPT_COMMAND="$PROMPT_COMMAND; enter_directory"

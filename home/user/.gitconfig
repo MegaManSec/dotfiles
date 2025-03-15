@@ -1,6 +1,9 @@
 [user]
-	email = Joshua@Joshua.Hu
+	email = Github@Joshua.Hu
 	name = Joshua Rogers
 [init]
 	defaultBrand = main
 	defaultBranch = main
+[diff]
+  colorMoved = dimmed-zebra
+  colorMovedWS = allow-indentation-change

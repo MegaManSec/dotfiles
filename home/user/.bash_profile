@@ -119,7 +119,7 @@ enter_directory() {
     return
   fi
   PREV_PWD="$PWD"
-  if [[ -r ".git/config" ]] && ! grep -qi 'work' .git/config; then
+  if [[ -r ".git/config" ]] && grep -qi 'git@github.com:MegaManSec' .git/config; then
     git_email="joshua-github-$(basename "$PWD" | grep -Eo "[a-zA-Z0-9._+-]+" | head -n1 | awk '{print tolower($0)}')@joshua.hu"
     grep -q -- "$git_email" ".git/config" && return
     git config --local commit.gpgsign false

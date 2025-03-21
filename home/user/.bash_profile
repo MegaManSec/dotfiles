@@ -90,7 +90,7 @@ case "$OSTYPE" in
 esac
 
 # SSH agent management
-export SSH_AUTH_SOCK=~/.ssh/ssh-agent.$HOSTNAME.sock
+export SSH_AUTH_SOCK=~/.ssh/agent/ssh-agent.$HOSTNAME.sock
 ssh-add -l 2>/dev/null >/dev/null
 if [ $? -ge 2 ]; then
   rm "$SSH_AUTH_SOCK" &>/dev/null

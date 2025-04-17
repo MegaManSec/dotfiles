@@ -61,6 +61,28 @@ case "$OSTYPE" in
 
     # Terminal prompt
     PS1="\[\e[32m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[32m\]\\$\[\e[m\] "
+
+    # CodeQL scans. XXX: Should standardize these.
+
+    codeql-scan-build() {
+      mkdir /tmp/cql/ 2>/dev/null || true
+      codeql database create /tmp/cql/"$(basename "$PWD")" --language=javascript --overwrite
+    }
+    codeql-scan-custom() {
+      codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" ~/work/CodeQL-Custom-Queries/ --format=sarifv2.1.0 --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
+    }
+    codeql-scan-large() {
+      codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" ~/work/codeql-repo/javascript/ql/src/codeql-suites/java* --format=sarifv2.1.0 --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
+    }
+    codeql-scan-java() {
+      mkdir /tmp/cql/ 2>/dev/null || true
+      export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
+      codeql database create /tmp/cql/"$(basename "$PWD")" --language=java --overwrite
+      codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" ~/work/codeql-repo/java/ql/src/codeql-suites/java* --format=sarifv2.1.0 --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
+      codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" --download githubsecuritylab/codeql-java-queries ~/work/CodeQL-Community-Packs/java/src/suites/* --format=sarifv2.1.0  --output=/tmp/cql/"scan-$(ba>
+      codeql database analyze /tmp/cql/"$(basename "$PWD")" --download trailofbits/cpp-queries:codeql-suites/tob-java-full.qls --format=sarif-latest --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
+    }
+
     ;;
   freebsd*)
     export LC_ALL=C.UTF-8

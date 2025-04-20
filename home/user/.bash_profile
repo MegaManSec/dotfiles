@@ -62,7 +62,7 @@ case "$OSTYPE" in
     # Terminal prompt
     PS1="\[\e[32m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[32m\]\\$\[\e[m\] "
 
-    # CodeQL scans. XXX: Should standardize these.
+    # CodeQL scans. XXX: Should standardize these and add Golang and Python (at least), and double check whether githubsecuritylab/codeql-java-queries is needed.
 
     codeql-scan-build() {
       mkdir /tmp/cql/ 2>/dev/null || true
@@ -80,9 +80,14 @@ case "$OSTYPE" in
       codeql database create /tmp/cql/"$(basename "$PWD")" --language=java --overwrite
       codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" ~/work/codeql-repo/java/ql/src/codeql-suites/java* --format=sarifv2.1.0 --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
       codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" --download githubsecuritylab/codeql-java-queries ~/work/CodeQL-Community-Packs/java/src/suites/* --format=sarifv2.1.0  --output=/tmp/cql/"scan-$(ba>
-      codeql database analyze /tmp/cql/"$(basename "$PWD")" --download trailofbits/cpp-queries:codeql-suites/tob-java-full.qls --format=sarif-latest --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
     }
-
+    copy() {
+      if [ -p /dev/stdin ]; then
+        pbcopy
+      else
+        cat -- "$1" | pbcopy
+      fi
+    }
     ;;
   freebsd*)
     export LC_ALL=C.UTF-8
@@ -103,9 +108,8 @@ alias grep='grep --color=auto'
 # OS-specific aliases
 case "$OSTYPE" in
   darwin*)
-    alias copy=pbcopy
     alias psf='pstree'
-    alias ipgrep='grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"' ;;
+    alias ipgrep='grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"' ;;
   freebsd*)
     alias psf='ps -d'
     alias ipgrep='grep -E '\''[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'\''' ;;
@@ -124,7 +128,16 @@ urlencode() {
   if [ -p /dev/stdin ]; then
     jq -sRr @uri
   else
-    printf "%s" "$1" | jq -sRr @uri # https://github.com/jqlang/jq/milestone/12 urldecode will be in jq 1.8
+    printf "%s" "$1" | jq -sRr @uri
+  fi
+}
+
+# URL decode function
+urldecode() {
+  if [ -p /dev/stdin ]; then
+    jq -sRr @urid
+  else
+    printf -- "%s" "$1"| jq -sRr @urid # https://github.com/jqlang/jq/milestone/12 urldecode will be in jq 1.8
   fi
 }
 
@@ -142,7 +155,6 @@ enter_directory() {
   fi
   PREV_PWD="$PWD"
   if [[ -r ".git/config" ]] && grep -qi 'git@github.com:MegaManSec' .git/config; then
-#    git_email="joshua-github-$(basename "$PWD" | grep -Eo "[a-zA-Z0-9._+-]+" | head -n1 | awk '{print tolower($0)}')@joshua.hu"
     git_email="MegaManSec@users.noreply.github.com"
     grep -q -- "$git_email" ".git/config" && return
     git config --local commit.gpgsign false

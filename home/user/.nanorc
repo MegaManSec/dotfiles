@@ -1,3 +1,11 @@
 set nowrap
-set fill 78 # # 107 #78
 include /usr/local/share/nano/*.nanorc
+
+set constantshow
+set jumpyscrolling
+set noconvert
+set tabsize 4
+set tabstospaces
+set numbercolor white
+set historylog
+#set fill 78

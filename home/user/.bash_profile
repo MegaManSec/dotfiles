@@ -76,10 +76,11 @@ case "$OSTYPE" in
     }
     codeql-scan-java() {
       mkdir /tmp/cql/ 2>/dev/null || true
-      export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
+      export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH" # XXX: Change version
+      export JAVA_HOME=/opt/homebrew/opt/openjdk@21 # XXX: Change version
       codeql database create /tmp/cql/"$(basename "$PWD")" --language=java --overwrite
-      codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" ~/work/codeql-repo/java/ql/src/codeql-suites/java* --format=sarifv2.1.0 --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
-      codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" --download githubsecuritylab/codeql-java-queries ~/work/CodeQL-Community-Packs/java/src/suites/* --format=sarifv2.1.0  --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
+      codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" --ram=28000 ~/work/codeql-repo/java/ql/src/codeql-suites/java* --format=sarifv2.1.0 --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s).sarif"
+      codeql database analyze --rerun /tmp/cql/"$(basename "$PWD")" --ram=28000 --download githubsecuritylab/codeql-java-queries ~/work/CodeQL-Community-Packs/java/src/suites/* --format=sarifv2.1.0  --output=/tmp/cql/"scan-$(basename "$PWD")-$(date +%s)-gls.sarif"
     }
     copy() {
       if [ -p /dev/stdin ]; then

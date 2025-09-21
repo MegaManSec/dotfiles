@@ -1,0 +1,32 @@
+#!/bin/sh
+set -eu
+
+if [ "$(id -u)" -ne 0 ]; then
+  echo "This script must be run as root." >&2
+  exit 1
+fi
+
+DEST="/usr/local/etc/blocked-hosts"
+TMP="$(mktemp -t blocked-hosts.XXXXXX)"
+RAW="$(mktemp -t blocked-hosts.raw.XXXXXX)"
+trap 'rm -f "$TMP" "$RAW"' EXIT INT TERM
+
+install -d -m 0755 /usr/local/etc
+
+: > "$RAW"
+for u in \
+  'https://someonewhocares.org/hosts/zero/hosts' \
+  'https://winhelp2002.mvps.org/hosts.txt' \
+  'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts'
+do
+  curl --silent -k "$u" >> "$RAW"
+done
+
+tr -d '\r' < "$RAW" \
+| awk '/^0\.0\.0\.0[[:space:]]/ {print $2}' \
+| sort -u > "$TMP"
+
+printf '%s\n' '*.ingest.sentry.io' >> "$TMP"
+sort -u "$TMP" -o "$TMP"
+
+install -m 0644 -o root -g wheel "$TMP" "$DEST"

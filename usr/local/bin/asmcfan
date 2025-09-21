@@ -1,36 +1,49 @@
 #!/bin/sh
+set -eu
 
-if ! kldstat | grep -q asmc.ko
-then
-  kldload asmc
+if [ "$(uname -s 2>/dev/null)" != "FreeBSD" ]; then
+  echo "This script must run on FreeBSD." >&2
+  exit 1
 fi
 
-TEMP=$(sysctl -n dev.cpu.0.temperature | cut -c 1-2)
-CUR_SPEED=$(sysctl -n dev.asmc.0.fan.0.targetspeed)
-SET_SPEED=0
+if ! kldstat -q -m asmc; then
+  if ! kldload asmc; then
+    echo "Failed to load asmc kernel module." >&2
+    exit 1
+  fi
+fi
 
-if [ "$TEMP" -le 48 ]; then
-  SET_SPEED=2000
-elif [ "$TEMP" -le 56 ]; then
-  SET_SPEED=2800
-elif [ "$TEMP" -le 62 ]; then
-  SET_SPEED=3000
-elif [ "$TEMP" -le 68 ]; then
-  SET_SPEED=3200
-elif [ "$TEMP" -le 84 ]; then
-  SET_SPEED=4000
-elif [ "$TEMP" -le 88 ]; then
-  SET_SPEED=4400
-elif [ "$TEMP" -le 92 ]; then
-  SET_SPEED=5000
-elif [ "$TEMP" -le 96 ]; then
-  SET_SPEED=6000
-else
-  SET_SPEED=6800
+TEMP_RAW="$(sysctl -n dev.cpu.0.temperature)"
+TEMP="$(printf '%s' "$TEMP_RAW" | tr -dc '0-9.' | cut -d. -f1)"
+
+if [ -z "${TEMP:-}" ]; then
+  echo "Could not read CPU temperature (got: $TEMP_RAW)." >&2
+  exit 1
+fi
+
+CUR_SPEED="$(sysctl -q -n dev.asmc.0.fan.0.targetspeed 2>/dev/null || echo 0)"
+CUR_SPEED="${CUR_SPEED:-0}"
+
+SET_SPEED=0
+if   [ "$TEMP" -le 48 ]; then SET_SPEED=2000
+elif [ "$TEMP" -le 56 ]; then SET_SPEED=2800
+elif [ "$TEMP" -le 62 ]; then SET_SPEED=3000
+elif [ "$TEMP" -le 68 ]; then SET_SPEED=3200
+elif [ "$TEMP" -le 84 ]; then SET_SPEED=4000
+elif [ "$TEMP" -le 88 ]; then SET_SPEED=4400
+elif [ "$TEMP" -le 92 ]; then SET_SPEED=5000
+elif [ "$TEMP" -le 96 ]; then SET_SPEED=6000
+else                          SET_SPEED=6800
 fi
 
 if [ "$SET_SPEED" -ne "$CUR_SPEED" ]; then
-  sysctl dev.asmc.0.fan.0.minspeed="$SET_SPEED" dev.asmc.0.fan.1.minspeed="$SET_SPEED"
+  # Fan 0 must succeed
+  if ! sysctl dev.asmc.0.fan.0.minspeed="$SET_SPEED" >/dev/null; then
+    echo "Failed to set fan 0 minspeed to $SET_SPEED." >&2
+    exit 1
+  fi
+  # Fan 1 may not exist on all models; ignore errors quietly
+  sysctl dev.asmc.0.fan.1.minspeed="$SET_SPEED" >/dev/null 2>&1 || :
 fi
 
 exit 0

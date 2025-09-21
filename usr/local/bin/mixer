@@ -1,22 +1,38 @@
 #!/bin/sh
-set -euo pipefail
+set -eu
 
-VOL_TMP=~/.config/i3/.volume
+if [ "$(uname -s 2>/dev/null)" != "FreeBSD" ]; then
+  echo "This script must run on FreeBSD." >&2
+  exit 1
+fi
 
-curvol="$(mixer -S vol | awk -F":" '{print $NF}')"
+STATE="${XDG_CONFIG_HOME:-$HOME/.config}/i3/.volume"
+umask 077
+mkdir -p "$(dirname "$STATE")"
+touch "$STATE"
+chmod 600 "$STATE"
 
-touch "$VOL_TMP"
-chmod 600 "$VOL_TMP"
+[ -O "$STATE" ] || { echo "Refusing to use non-owned state file: $STATE" >&2; exit 1; }
+[ ! -L "$STATE" ] || { echo "Refusing to use symlinked state file: $STATE" >&2; exit 1; }
+[ -f "$STATE" ]   || { echo "State path is not a regular file: $STATE" >&2; exit 1; }
 
-[ -O "$VOL_TMP" ] || exit 1 # Ensure we're the owner
-[ -f "$VOL_TMP" ] || exit 1 # Ensure it's a file
-[ -L "$VOL_TMP" ] && exit 1 # Ensure it's not a symlink
+CUR_RAW="$(mixer -S vol 2>/dev/null || true)"
+[ -n "$CUR_RAW" ] || { echo "Could not read current volume (mixer failed)." >&2; exit 1; }
 
-VOL="$(cat "$VOL_TMP")"
+CUR_VOL="$(printf '%s\n' "$CUR_RAW" | awk -F: '{gsub(/[[:space:]]*/, "", $NF); print int($NF)}')"
+SAVED_VOL="$(awk 'NR==1 {print int($1)}' "$STATE" 2>/dev/null || echo 50)"
+[ "$SAVED_VOL" -ge 0 ] 2>/dev/null || SAVED_VOL=50
+[ "$SAVED_VOL" -le 100 ] 2>/dev/null || SAVED_VOL=50
 
-if [ "$curvol" -gt 0 ]; then
-	echo "$curvol" > "$VOL_TMP"
-	mixer vol set 0
+if [ "$CUR_VOL" -gt 0 ]; then
+  printf '%s\n' "$CUR_VOL" > "$STATE"
+  mixer vol 0 >/dev/null
 else
-	mixer vol set "$VOL"
+  [ "$SAVED_VOL" -gt 0 ] || SAVED_VOL=50
+  mixer vol "$SAVED_VOL" >/dev/null
+fi
+
+if [ "$(uname -s 2>/dev/null)" != "FreeBSD" ]; then
+  echo "This script must run on FreeBSD." >&2
+  exit 1
 fi

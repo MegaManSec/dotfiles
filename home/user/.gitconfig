@@ -1,9 +1,15 @@
 [user]
-	email = MegaManSec@users.noreply.github.com
-	name = Joshua Rogers
+    email = MegaManSec@users.noreply.github.com
+    name = Joshua Rogers
 [init]
-	defaultBrand = main
-	defaultBranch = main
+    defaultBrand = main
+    defaultBranch = main
 [diff]
-  colorMoved = dimmed-zebra
-  colorMovedWS = allow-indentation-change
+#    colorMoved = dimmed-zebra
+    colorMovedWS = allow-indentation-change
+[init]
+    defaultBranch = main
+[url "git@github.com-work:WorkName/"]
+    insteadOf = git@github.com:WorkName/
+[url "ssh://git@github.com-work/WorkName/"]
+    insteadOf = ssh://git@github.com/WorkName/

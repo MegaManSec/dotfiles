@@ -138,7 +138,7 @@ urldecode() {
   if [ -p /dev/stdin ]; then
     jq -sRr @urid
   else
-    printf -- "%s" "$1"| jq -sRr @urid # https://github.com/jqlang/jq/milestone/12 urldecode will be in jq 1.8
+    printf -- "%s" "$1"| jq -sRr @urid # requires jq 1.8
   fi
 }
 

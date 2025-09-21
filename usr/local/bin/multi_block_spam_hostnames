@@ -30,3 +30,17 @@ printf '%s\n' '*.ingest.sentry.io' >> "$TMP"
 sort -u "$TMP" -o "$TMP"
 
 install -m 0644 -o root -g wheel "$TMP" "$DEST"
+
+sys_type="$(uname -s 2>/dev/null)"
+if [ "$sys_type" = "FreeBSD" ]; then
+  service dnscrypt-proxy reload
+elif [ "$sys_type" = "Linux" ]; then
+  systemctl restart dnscrypt-proxy
+elif [ "$sys_type" = "Darwin" ]; then
+  brew services reload dnscrypt-proxy
+else
+  echo "Unknown system type, could not reload dnscrypt-proxy: $sys_type"
+  exit 1
+fi
+
+exit 0

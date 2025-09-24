@@ -5,11 +5,10 @@
     defaultBrand = main
     defaultBranch = main
 [diff]
-#    colorMoved = dimmed-zebra
     colorMovedWS = allow-indentation-change
 [init]
     defaultBranch = main
-[url "git@github.com-work:WorkName/"]
-    insteadOf = git@github.com:WorkName/
-[url "ssh://git@github.com-work/WorkName/"]
-    insteadOf = ssh://git@github.com/WorkName/
+[url "git@github.com-work:Opera/"]
+    insteadOf = git@github.com:Opera/
+[url "ssh://git@github.com-work/Opera/"]
+    insteadOf = ssh://git@github.com/Opera/

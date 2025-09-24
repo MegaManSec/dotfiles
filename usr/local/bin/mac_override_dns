@@ -48,6 +48,13 @@ then
   add_dns_if_missing "State:/Network/Service/com.zscaler.tunnel/DNS"
 fi
 
+if /usr/sbin/scutil <<'EOF' | grep -q '{'
+show State:/Network/Service/net.pulsesecure.pulse.nc.main/DNS
+EOF
+then
+  add_dns_if_missing "State:/Network/Service/net.pulsesecure.pulse.nc.main/DNS"
+fi
+
 if /usr/sbin/networksetup -listallnetworkservices 2>/dev/null \
   | sed '1d;s/^\* //' | grep -Fxq "Wi-Fi"
 then

@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Reklāmas"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Kaitinoši elementi"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Noklusējums"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Ļaunatūras domēni"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Dažādi"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Privātums"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Apgabali, valodas"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Izmaiņu žurnāls"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Pirmkods (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Līdzdalībnieki"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Ārējās atkarības (GPLv3 saderīgas):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Aizturēšanas saraksti"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Par"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "Konfidencialitātes nosacījumi"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Pirmkods"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Tulkojumi"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Pārlādēt lapu pēc aizturēšanas veida nomaiņas."
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "Pamata tīkla aizturēšana, izmantojot atlasītos aizturēšanas sarakstus.\n\nNav nepieciešama atļauja lasīt un mainīt datus tīmekļa vietnēs."
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "Uzvedība"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "Pilna tīkla aizturēšana ar pamata un papildu paplašinātu aizturēšanu, izmantojot atlasītos aizturēšanas sarakstus.\n\nNepieciešamas plašas atļaujas lasīt un mainīt visu tīmekļa vietņu datus.\n\nPamata paplašinātā aizturēšana var izraisīt paaugstinātu tīmekļa vietnes resursu izmantošanu."
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — infopanelis"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "Tīmekļa vietnes aizturēšanas veidi pārrakstīs noklusējumu. Katrā tīmekļa vietnē ir iespēja pielāgot aizturēšanu, vadoties pēc tā, kurš no veidiem vislabāk darbojas tieši tajā lapā. Katram veidam ir savas priekšrocības un trūkumi."
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "Noklusējuma aizturēšanas veids"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "Apskatīt"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "Pielāgotas DNR kārtulas"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNR kārtulas …"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Dinamiska kārtulu kopa"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "Aizturēšanas režīma informācija"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Sesijas kārtulu kopa"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "Izstrādāt"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Izstrādātāja režīms"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Iespējot piekļuvi iespējām, kas piemērotas tehniskiem lietotājiem."
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "Reģistrēto kārtulu skaits: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "Nevajag pievienot saturu no neuzticamiem avotiem."
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Iespējot stingro aizturēšanu"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Iespējami nevēlamu vietņu apmeklēšana tiks aizturēta, un tiks piedāvāta iespēja turpināt."
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "Izgūt…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Bezatļauju satura aizturētājs. Aiztur reklāmas, izsekotājus, kriptoracējus un daudz ko citu uzreiz pēc uzstādīšanas."
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "bez aizturēšanas"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "pamata"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "labākais"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "pilnais"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "Atrast sarakstus"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "Ievietot un pievienot…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "Saraksts ar resursdatoru nosaukumiem, kuriem netiks pielietota aizturēšana"
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[tikai resursdatoru nosaukumi]\nexample.com\ngames.example\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "Labāka tīkla aizturēšana ar atsevišķu paplašinātu aizturēšanu, izmantojot atlasītos aizturēšanas sarakstus.\n\nNepieciešamas plašas atļaujas lasīt un mainīt visu tīmekļa vietņu datus."
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} nosacījumi, pārveidoti no {{filterCount}} tīkla aizturētājiem"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "Izveidot"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "Izvēlēties"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "Priekšskatīt"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "Jābīda slīdnis, lai atlasītu vislabāko atbilstību"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "Izveidot pielāgotu aizturētāju"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "aizturēšanas veids"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Mazāk"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "Šajā tīmekļvietnē"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Vairāk"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Atvērt vadības paneli"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Ziņot par nepilnību šajā tīmekļa vietnē"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "Atjaunot"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "Saglabāt"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Iestatījumi"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Rādīt aizturēto pieprasījumu skaitu rīkjoslas ikonā"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "Doties atpakaļ"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "Aizvērt šo logu"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "Nebrīdināt vairs par šo vietni"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "bez parametriem"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "Turpināt"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "Lapa tika aizturēta, jo atbilst aizturētājam sarakstā {{listname}}."
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "Aizturētā lapa veic pārvirzīšanu uz citu vietni. Ja izvēlēsies turpināt, nonāksi uzreiz šeit: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "uBO Lite novērsa šīs lapas ielādēšanu:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "Lapa aizturēta"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "Meklēt līdzīgus ziņojumus"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "Izveidot jaunu ziņojumu"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "Ziņot par aizturēšanas filtru nepilnībām noteiktās vietnēs \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> pieteikumu izsekotājā\u003C/span>. \u003Cu>Nepieciešams GitHub konts.\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "Traucējummeklēšanas informācija"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "Atzīmēt šo lapu kā “nav droša skatīšanai darbā (NSFW)” (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">“Not Safe For Work”\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "Ziņot par aizturēšanas filtra nepilnību"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Lai izvairītos no brīvprātīgo noslogošanas ar ziņojumiem, kas atkārtojas, lūgums pārbaudīt, ka par šādu nepilnību jau nav ziņots. \u003Cb>Piebilde:\u003C/b> klikšķināšana uz pogas izraisīs arī lapas izcelsmes nosūtīšanu uz GitHub."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "Tīmekļa lapa…"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- Atlasīt ierakstu --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Rāda reklāmas vai to paliekas"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Ir pārklājumi vai citi traucējumi"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Nosaka uBO Lite"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Ir ar privātumu saistītas nepilnības"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Darbības traucējumi, kad ir iespējots uBO Lite"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Atver nevēlamas cilnes vai logus"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Noved pie ļaunatūras, pikšķerēšanas"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "Tīmekļa lapas adrese:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "Noņemt pielāgotu aizturētāju"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "Zemāk jāatlasa atlasītājs, lai tīmekļa lapā izceltu atbilstošos elementus. Klikšķināt uz atkritnes, lai noņemtu aizturētāju."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "Pārslēgties uz elementu iznīcināšanu"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "Iziet no elementu iznīcināšanas"
+   }
+}

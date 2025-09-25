@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "廣告"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "嫌惡元素"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "預設"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "惡意網域"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "其他"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "隱私"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "地區及語言"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "變更日誌"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "原始碼（GPLv3）"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "貢獻者"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "外部依存套件（相容 GPLv3）："
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "過濾規則清單"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "關於"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "隱私權政策"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "原始碼"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "翻譯"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "變更過濾模式時自動重新載入"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "來自選定過濾條件清單的基礎網路過濾。\n\n不需要讀取與變更網站資料的權限。"
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "行為"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "進階網路過濾，加上從選定過濾清單中進行特定與通用延伸過濾。\n\n需要授予讀取和修改所有網站資料的廣泛權限。\n\n通用延伸過濾可能會導致較高的網頁資源使用量。"
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — 控制台"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "預設過濾模式將被每個網站的過濾模式覆寫。你可以根據每個網站的情況，調整該網站的過濾模式，以選擇最適合的模式。每種模式都有其優缺點。"
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "預設過濾模式"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "檢視："
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "自訂 DNR 規則"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNR 規則……"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "動態規則集"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "過濾模式詳細資訊"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "工作階段規則集"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "開發"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "開發人員模式"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "啟用適合技術使用者使用的功能。"
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "已登錄規則數：{count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "切勿新增來自不受信任來源的內容"
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "啟用嚴格阻擋"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "前往潛在不良網站的導航將被阻止，您可以選擇是否繼續前往。"
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "匯出…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "一個無須授權的內容封鎖器。安裝後即可立即封鎖廣告、追蹤器、挖礦程式等等。"
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "不過濾"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "基礎"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "最佳"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "完整"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "尋找清單"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "匯入並加入…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "白名單"
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[僅主機名稱]\nexample.com\ngames.example\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "進階的網路過濾功能，並結合選定過濾清單中的特定延伸過濾。  \n\n需要授予讀取和修改所有網站資料的廣泛權限。"
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} 條規則，由 {{filterCount}} 條網路過濾規則轉換而來"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "建立"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "挑選"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "預覽"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "移動滑桿以選取最佳符合"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "建立自訂過濾器"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "過濾模式"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "更少"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "在此網站上"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "更多"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "開啟控制台"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "回報此網站的問題"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "還原"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "儲存"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "設定"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "在工具列圖示上顯示已封鎖請求的數量。"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "返回"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "關閉此視窗"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "不再就此網站警告我"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "不帶參數"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "繼續"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "由於符合 {{listname}} 中的過濾規則，此頁面已被封鎖。"
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "被阻擋的頁面想要重定向到另一個網站。如果您選擇繼續，將直接導航至：{{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "uBO Lite 已防止下列頁面載入："
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "已封鎖頁面"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "尋找類似報告"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "建立新報告"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "將特定網站的過濾器問題回報至 \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> 議題追蹤器\u003C/span>。\u003Cu>需要 GitHub 帳號。\u003C/u>."
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "疑難排解資訊"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "將網頁標記為「NSFW」（\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">「工作場所不宜」\u003C/a>）"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "回報過濾規則問題"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "為避免增加志願者的負擔，請先確認此問題是否已被回報過。\u003Cb>請注意：\u003C/b>點選按鈕會將本頁的來源傳送到 GitHub。"
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "網頁……"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- 選擇一項 --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "會顯示廣告或廣告殘留物"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "有覆蓋層或其他干擾"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "偵測到 uBO Lite"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "有隱私相關問題"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "在 uBO Lite 啟用時運作異常"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "開啟不需要的分頁或視窗"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "導向惡意軟體、釣魚網站"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "網址："
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "移除自訂過濾器"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "選取下方的過濾器，突顯網頁中符合條件的元素。按一下回收桶可移除過濾器"
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "進入元素臨時移除模式"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "離開元素臨時移除模式"
+   }
+}

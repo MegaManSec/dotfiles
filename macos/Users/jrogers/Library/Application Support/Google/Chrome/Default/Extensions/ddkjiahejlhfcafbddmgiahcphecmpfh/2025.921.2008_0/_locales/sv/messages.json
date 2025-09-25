@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Annonser"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Störande"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Standard"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Skydd mot skadlig programvara, säkerhet"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Diverse"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Integritet"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Regioner, språk"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Ändringslogg"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Källkod (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Bidragsgivare"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Externa beroenden (GPLv3-kompatibla):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Filterlistor"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Om"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "Integritetspolicy"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Källkod"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Översättningar"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Ladda automatiskt om sidan när du byter filtreringsläge"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "Grundläggande nätverksfiltrering från valda filterlistor.\n\nKräver ingen behörighet för att läsa och ändra data på webbplatser."
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "Beteende"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "Avancerad nätverksfiltrering plus specifik och allmän utökad filtrering från utvalda filterlistor.\n\nKräver bred behörighet för att läsa och ändra data på alla webbplatser.\n\nAllmän utökad filtrering kan orsaka högre användning av webbsidors resurser."
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — Kontrollpanel"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "Standardfiltreringsläget kommer att åsidosättas av filtreringslägen per webbplats. Du kan justera filtreringsläget på vilken webbplats som helst enligt vilket läge som fungerar bäst på den webbplatsen. Varje läge har sina fördelar och nackdelar."
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "Standardfiltreringsläge"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "Visa:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "Anpassade DNR-regler"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNR-regler av …"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Dynamisk regeluppsättning"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "Filtrera lägesdetaljer"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Sessionsregeluppsättning"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "Utveckla"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Utvecklarläge"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Aktivera åtkomst till funktioner som är lämpliga för tekniska användare."
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "Antal registrerade regler: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "Lägg inte till filter från obetrodda källor."
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Aktivera strikt blockering"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Navigering till potentiellt oönskade webbplatser kommer att blockeras och du kommer att erbjudas alternativet att fortsätta."
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "Exportera…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "En effektiv innehållsblockerare. Blockerar annonser, spårare, miners och mer direkt efter den har installerats."
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "ingen filtrering"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "grundläggande"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "optimal"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "fullständig"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "Hitta listor"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "Importera och lägg till…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "Lista över värdnamn som inte kommer att filtreras"
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[endast värdnamn]\nexempel.se\nspel.exempel\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "Avancerad nätverksfiltrering plus specifik utökad filtrering från utvalda filterlistor.\n\nKräver högre behörighet för att läsa och ändra data på alla webbplatser."
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} regler, konverterat från {{filterCount}} nätverksfilter"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "Skapa"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "Välj"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "Förhandsgranska"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "Flytta reglaget för att välja den bästa matchningen"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "Skapa ett anpassat filter"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "filtreringsläge"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Mindre"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "På denna webbplats"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Mer"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Öppna kontrollpanelen"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Rapportera ett problem"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "Ångra"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "Spara"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Inställningar"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Visa antalet blockerade förfrågningar på verktygsfältsikonen"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "Gå tillbaka"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "Stäng det här fönstret"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "Varna mig inte igen om den här sidan"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "utan parametrar"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "Fortsätt"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "Sidan har blockerats på grund av ett matchande filter i {{listname}}."
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "Den blockerade sidan vill omdirigera till en annan webbplats. Om du väljer att fortsätta skickas du direkt till: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "uBO Lite har förhindrat följande sida från att läsas in:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "Sidan blockerad"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "Hitta liknande rapporter på GitHub"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "Skapa ny rapport på GitHub"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "Rapportera filterproblem med specifika webbplatser till \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> problemhanteringssystemet\u003C/span>. \u003Cu>Kräver ett GitHub-konto.\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "Felsökningsinformation"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "Märk webbsidan som “NSFW” (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">“Inte lämplig på jobbet”\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "Rapportera ett filterproblem"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "För att undvika att belasta volontärer med dubbletter av rapporter, kontrollera att problemet inte redan har rapporterats. \u003Cb>Observera:\u003C/b> om du klickar på knappen kommer sidans ursprung att skickas till GitHub."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "Hemsidan..."
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- Välj en post --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Visar annonser eller rester av annonser"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Har överlägg eller andra olägenheter"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Upptäcker uBO Lite"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Har integritetsrelaterade problem"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Fungerar inte när uBO Lite är aktiverad"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Öppnar oönskade flikar eller fönster"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Leder till skadlig programvara, nätfiske"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "Hemsidans adress:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "Ta bort ett anpassat filter"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "Välj ett filter nedan för att markera matchande element på webbsidan. Klicka på papperskorgen för att ta bort ett filter."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "Ta bort ett element"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "Lämna elementzapperläge"
+   }
+}

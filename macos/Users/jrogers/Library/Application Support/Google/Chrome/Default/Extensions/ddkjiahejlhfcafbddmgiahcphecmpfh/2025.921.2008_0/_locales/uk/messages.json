@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Реклама"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Надокучливості"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Типово"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Домени шкідливих програм"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Різне"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Приватність"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Регіони, мови"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Журнал змін"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Код програми (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Учасники"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Зовнішні залежності (Сумісні з GPLv3)"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Списки фільтрів"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Про застосунок"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "Політика конфіденційності"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Вихідний код"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Переклади"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Автоматично оновити сторінку при зміні режиму фільтрування"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "Базова мережева фільтрація з обраних списків фільтрів.\n\nНе вимагає дозволу на читання і зміну даних на вебсайтах."
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "Поведінка"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "Розширена мережева фільтрація плюс специфічна та загальна розширена фільтрація з вибраних списків фільтрів.\n\nПотребує розширених дозволів на читання та зміну даних на всіх сайтах.\n\nЗагальна розширена фільтрація може призвести до збільшення використання ресурсів вебсторінкою."
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — Панель керування"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "Режим фільтрації за замовчуванням буде замінений режимами фільтрації для кожного вебсайту. Ви можете налаштувати режим фільтрації на будь-якому вебсайті відповідно до того, який режим найкраще працює на цьому вебсайті. Кожен режим має свої переваги та недоліки."
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "Типовий режим фільтрування"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "Перегляд:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "Користувацькі правила DNR"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "Правила DNR для…"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Динамічний набір правил"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "Подробиці режиму фільтрації"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Набір правил для сесії"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "Розробка"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Режим розробника"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Відкрити доступ до можливостей, які актуальні для технічних користувачів"
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "Кількість зареєстрованих правил: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "Не додавати вміст з невідомих джерел"
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Увімкнути суворе блокування"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Перехід до потенційно небажаних сайтів буде заблоковано, та вам буде запропоновано можливість продовжити"
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "Експортувати…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Експериментальний, бездозвільний блокувальник вмісту. Блокує рекламу, трекери, майнери та інше одразу після встановлення."
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "без фільтрування"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "базовий"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "оптимальний"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "повний"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "Знайти списки"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "Імпортувати та додати…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "Список імен хостів, для яких не буде застосовуватись фільтрування"
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[тільки імена хостів]\nexample.com\ngames.example\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "Розширена мережева фільтрація плюс спеціальна розширена фільтрація з вибраних списків фільтрів.\n\nВимагає широкого дозволу на читання та зміну даних на всіх вебсайтах."
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} правил, конвертованих з {{filterCount}} мережних фільтрів"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "Створити"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "Вибрати"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "Попередній перегляд"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "Переміщайте повзунок для вибору кращого варіанту"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "Створити власний фільтр"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "режим фільтрації"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Менше"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "На цьому вебсайті"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Більше"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Відкрити панель керування"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Повідомити про помилку на цьому вебсайті"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "Повернути"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "Зберегти"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Налаштування"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Показувати кількість заблокованих запитів на піктограмі панелі інструментів"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "Повернутися"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "Закрити це вікно"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "Більше не попереджати мене про цей сайт"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "без параметрів"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "Продовжити"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "Сторінку заблоковано, бо вона відповідає фільтру в {{listname}}."
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "Заблокована сторінка хоче переадресувати на інший сайт. Якщо ви вирішите продовжити, ви перейдете безпосередньо на: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "uBO Lite заблокував завантаження таких сторінок:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "Сторінку заблоковано"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "Знайти подібні звіти"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "Створити новий звіт"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "Повідомляйте про вади з фільтрами на конкретних вебсайтах у \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">відстежувач помилок \u003Ccode>uBlockOrigin/uAssets\u003C/code>\u003C/span>. \u003Cu>Потрібен обліковий запис GitHub.\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "Усунення проблем"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "Позначити цю сторінку «Небезпечною для роботи» (\u003Ca href=\"https://uk.wikipedia.org/wiki/NSFW\">«NSFW»\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "Повідомити про ваду фільтра"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Щоб не обтяжувати волонтерів повторюваними звітами, переконайтеся, що про проблему ще не повідомлялося.\u003Cb>Зауваження:\u003C/b> натискання на кнопку призведе до надсилання походження сторінки на GitHub."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "Вебсторінка..."
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- Указати проблему --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "З'являється реклама або залишки оголошень"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Накладання або інші прикрощі"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Виявляє uBO Lite"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Пов'язані з приватністю проблеми"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Вади коли uBO Lite ввімкнено"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Відкриває небажані вкладки або вікна"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Веде до шкідливого ПЗ, фішингу"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "Адреса вебсторінки:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "Вилучити власний фільтр"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "Виберіть фільтр нижче, щоб підсвітити відповідні елементи на сторінці. Натисніть на кошик для видалення фільтра."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "Перейти в режим тимчасового приховування елементів"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "Вийти з режиму тимчасового приховування елементів"
+   }
+}

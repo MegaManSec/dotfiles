@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Hirdetések"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Bosszúságok"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Alapértelmezett"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Malware domainek"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Egyéb"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Adatvédelem"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Régiók, nyelvek"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Változások listája"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Forráskód (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Közreműködők"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Külső függőségek (GPLv3-kompatibilis):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Szűrőlisták"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Névjegy"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "Adatvédelmi irányelvek"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Forráskód"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Fordítások"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Az oldal automatikus újratöltése a szűrési mód megváltoztatásakor"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "Alapvető hálózati szűrés a kiválasztott szűrőlistákból.\n\nNem igényel engedélyt a webhelyeken található adatok olvasásához és módosításához."
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "Viselkedés"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "Speciális hálózati szűrés, valamint speciális és általános kiterjesztett szűrés a kiválasztott szűrőlistákból.\n\nSzéles körű engedély szükséges az adatok olvasásához és módosításához az összes webhelyen.\n\nAz általános kiterjesztett szűrés nagyobb weboldal-erőforrás-felhasználást eredményezhet."
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — Vezérlőpult"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "Az alapértelmezett szűrési módot a webhelyenkénti szűrési módok felülírják. Bármely webhelyen beállíthatja a szűrési módot aszerint, hogy melyik mód működik a legjobban az adott webhelyen. Mindegyik módnak megvannak a maga előnyei és hátrányai."
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "Alapértelmezett szűrési mód"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "Nézet:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "Egyéni DNR szabályok"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNR szabályok ehhez…"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Dinamikus szabálykészlet"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "Szűrési mód részletei"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Munkamenet szabálykészlete"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "Fejlesztés"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Fejlesztői mód"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Hozzáférést biztosít a képzettebb felhasználóknak való funkciókhoz."
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "Regisztrált szabályok száma: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "Ne adjon hozzá megbízhatatlan forrásokból származó tartalmat."
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Szigorú blokkolás engedélyezése"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Az esetleges nem kívánatos webhelyekre való navigáció blokkolva lesz, és rákérdez arra, hogy folytatja-e."
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "Exportálás…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Engedélyt nem igénylő tartalomblokkoló. A telepítés után azonnal blokkolja a hirdetéseket, nyomkövetőket, bányászokat és egyebeket."
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "nincs szűrés"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "alapvető"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "optimális"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "teljes"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "Listák keresése"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "Importálás és hozzáadás…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "Azon gépnevek listája, amelyek esetében nem történik szűrés."
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[csak kiszolgálónevek]\nexample.com\ngames.example\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "Speciális hálózati szűrés plusz speciális kiterjesztett szűrés a kiválasztott szűrőlistákból.\n\nSzéles körű engedély szükséges az adatok olvasásához és módosításához az összes webhelyen."
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} szabály, {{filterCount}} hálózati szűrőből átalakítva"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "Létrehozás"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "Kiválasztás"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "Előnézet"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "Használja a csúszkát a legjobb egyezés kiválasztásához"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "Egyéni szűrő létrehozása"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "szűrési mód"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Kevesebb"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "Ezen a weboldalon"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Több"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Vezérlőpult megnyitása"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Oldalon lévő probléma jelentése"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "Visszaállítás"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "Mentés"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Beállítások"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Blokkolt kérések számának megjelenítése az eszköztárikonon"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "Vissza"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "Ablak bezárása"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "Ne figyelmeztessen többet erről az oldalról"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "paraméterek nélkül"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "Folytatás"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "Az oldal a(z) {{listname}} listában lévő illeszkedő szűrő miatt blokkolva lett."
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "A blokkolt oldal egy másik webhelyre akarja átirányítani. Ha a folytatást választja, akkor közvetlenül ide fog navigálni: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "A uBO Lite megakadályozta a következő oldal betöltését:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "Oldal blokkolva"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "Hasonló jelentések keresése"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "Új jelentés létrehozása GitHub-ra"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "Az adott webhelyeket érintő szűrőhibákat a \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> hibakövetőjében\u003C/span> jelentse. \u003Cu>Ehhez GitHub-fiók szükséges.\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "Hibakeresési információk"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "A weboldal megjelölése „NSFW”-ként (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">„Not Safe For Work”\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "Szűrőhiba jelentése"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Az önkéntesek terhelésének csökkentése érdekében győződjön meg róla, hogy a hiba még nem lett jelentve. \u003Cb>Megjegyzés:\u003C/b> a gombra kattintás azt okozza, hogy a lap eredete el lesz küldve a GitHub részére."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "A weboldal…"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- Válasszon egy bejegyzést --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Hirdetéseket vagy azok maradványait jeleníti meg"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Átfedő vagy egyéb zavaró elemeket tartalmaz"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Észleli az uBO Lite-ot"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Adatvédelmi problémákat vet fel"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Hibásan működik, ha a uBO Lite be van kapcsolva"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Kéretlen lapokat vagy ablakokat nyit meg"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Kártékony programokhoz, adathalászathoz vezet"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "A weboldal címe:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "Egyéni szűrő eltávolítása"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "Válasszon alább egy szűrőt, hogy kiemelje az egyező elemeket a weboldalon. Kattintson a kuka ikonra egy szűrő eltávolításához."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "Belépés az elemeltávolító módba"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "Kilépés az elemeltávolító módból"
+   }
+}

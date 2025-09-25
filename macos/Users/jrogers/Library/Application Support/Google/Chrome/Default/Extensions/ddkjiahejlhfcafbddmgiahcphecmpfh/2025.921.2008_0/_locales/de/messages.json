@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Werbung"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Belästigungen"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Standard"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Schutz vor Schadsoftware, Sicherheit"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Verschiedenes"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Datenschutz"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Regionen, Sprachen"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Änderungsprotokoll"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Quellcode (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Mitwirkende"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Externe Abhängigkeiten (GPLv3-kompatibel):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Filterlisten"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Über"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "Datenschutzhinweise"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Quellcode"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Übersetzungen"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Seite beim Ändern des Filtermodus automatisch neu laden"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "Einfaches Netzwerkfiltern aus gewählten Filterlisten.\n\nErfordert keine Berechtigung zum Lesen und Ändern von Daten auf Websites."
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "Verhalten"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "Erweitertes Netzwerkfiltern plus spezifisches und allgemeines erweitertes Filtern aus gewählten Filterlisten.\n\nErfordert eine weitreichende Berechtigung zum Lesen und Ändern von Daten auf allen Websites.\n\nDas allgemeine erweiterte Filtern kann zu einem höheren Ressourcenverbrauch der Webseite führen."
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — Dashboard"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "Der Standardfiltermodus wird durch individuelle Filtermodi für die jeweiligen Websites überschrieben. Sie können den Filtermodus auf jeder beliebigen Website entsprechend dem Modus anpassen, der auf dieser Website am besten funktioniert. Jeder Modus hat seine Vor- und Nachteile."
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "Standardfiltermodus"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "Ansicht:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "Eigene DNR-Regeln"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNR-Regeln von …"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Dynamische Regeln"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "Details zum Filtermodus"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Regeln der aktuellen Sitzung"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "Entwickeln"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Entwicklermodus"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Ermöglicht den Zugriff auf Funktionen, die für technisch Versierte bestimmt sind."
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "Anzahl erfasster Regeln: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "Verwenden Sie keine Regeln aus unseriösen Quellen"
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Striktes Blockieren aktivieren"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Die Navigation zu potenziell unerwünschten Websites wird verhindert, jedoch wird eine Möglichkeit zum Fortfahren angeboten."
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "Exportieren …"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Ein effizienter Inhaltsblocker. Blockiert Werbung, Tracker und mehr sofort nach der Installation."
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "nicht filtern"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "einfach"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "optimal"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "vollständig"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "Listen suchen"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "Importieren und ergänzen …"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "Liste der Websites, für die nicht gefiltert wird."
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[nur Hostnamen]\nexample.com\ngames.example\n…"
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "Erweitertes Netzwerkfiltern plus spezifisches erweitertes Filtern aus ausgewählten Filterlisten.\n\nErfordert eine weitreichende Berechtigung zum Lesen und Ändern von Daten auf allen Websites."
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} Regeln, umgewandelt aus {{filterCount}} Netzwerkfiltern"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "Erstellen"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "Auswählen"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "Vorschau"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "Schieberegler bewegen, um die beste Übereinstimmung auszuwählen"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "Eigenen Filter erstellen"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "Filtermodus"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Weniger"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "Auf dieser Website"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Mehr"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Dashboard öffnen"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Ein Problem melden"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "Rückgängig machen"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "Speichern"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Einstellungen"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Anzahl der blockierten Anfragen auf dem Symbol in der Symbolleiste anzeigen"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "Zurück"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "Dieses Fenster schließen"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "Nicht erneut vor dieser Seite warnen"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "ohne Parameter"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "Fortfahren"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "Die Seite wurde aufgrund eines übereinstimmenden Filters in {{listname}} blockiert."
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "Die blockierte Seite möchte zu einer anderen Website weiterleiten. Beim Fortfahren wird folgende Seite aufgerufen: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "uBO Lite hat das Laden der folgenden Seite verhindert:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "Seite blockiert"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "Ähnliche Meldungen auf GitHub finden"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "Neue Meldung auf GitHub erstellen"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "Bitte melden Sie Filterprobleme mit bestimmten Websites an den \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> Issue Tracker\u003C/span>. \u003Cu>Erfordert ein GitHub-Konto.\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "Informationen zur Fehlerbehebung"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "Webseite als »NSFW« kennzeichnen (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">»Unpassend für den Arbeitsplatz«\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "Ein Filterproblem melden"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Um die Freiwilligen nicht mit doppelten Meldungen zu überlasten, vergewissern Sie sich bitte, dass das Problem noch nicht gemeldet wurde. \u003Cb>Hinweis:\u003C/b> Das Anklicken der Schaltfläche übermittelt den Ursprung der Seite an GitHub."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "Die Webseite …"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- Einen Eintrag auswählen --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Zeigt Werbung oder Werbereste"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Hat Überdeckungen oder andere Belästigungen"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Erkennt uBO Lite"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Hat Datenschutzprobleme"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Funktioniert nicht richtig, wenn uBO Lite aktiviert ist"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Öffnet unerwünschte Tabs oder Fenster"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Führt zu Schadsoftware, Phishing"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "Adresse der Webseite:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "Eigenen Filter entfernen"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "Das Auswählen eines unten stehenden Filters hebt übereinstimmende Elemente auf der Webseite hervor. Auf den Mülleimer klicken, um einen Filter zu entfernen."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "Ein Element entfernen"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "Temporären Modus beenden"
+   }
+}

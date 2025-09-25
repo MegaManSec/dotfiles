@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "إعلانات"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "مضايقات"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "افتراضي"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "نطاقات البرامج الضارة"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "متنوع"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "الخصوصية"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "المناطق واللغات"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "سجل التغييرات"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "شفرة المصدر (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "المساهمون"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "التبعيات الخارجية (متوافقة مع GPLv3):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "قوائم التصفية"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "حول البرنامج"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "سياسة الخصوصية"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "شيفرة المصدر"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "الترجمات"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "إعادة تحميل الصفحة تلقائيًا عند تغيير وضع التصفية"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "تصفية الشبكة الأساسية من قوائم التصفية المحددة.\n\nلا يتطلب إذنًا لقراءة البيانات وتعديلها على مواقع الويب."
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "السلوك"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "تصفية الشبكة المتقدمة بالإضافة إلى تصفية موسعة محددة وعامة من قوائم التصفية المحددة.\n\nيتطلب إذنًا واسعًا لقراءة البيانات وتعديلها على جميع مواقع الويب.\n\nقد تؤدي التصفية الموسعة العامة إلى زيادة استخدام موارد صفحة الويب."
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "لوحة التحكم"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "سيتم تجاوز وضع التصفية الافتراضي بواسطة أوضاع التصفية لكل موقع ويب. يمكنك ضبط وضع التصفية على أي موقع ويب معين وفقًا للوضع الذي يعمل بشكل أفضل على موقع الويب هذا. كل وضع له مزاياه وعيوبه."
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "وضع التصفية الافتراضي"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "عرض:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "قواعد DNR مخصصة"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "قواعد DNR لـ …"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "مجموعة قواعد متغيرة"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "تفاصيل وضع التصفية"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "مجموعة قواعد جَلسة"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "تطوير"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "وضع المطور"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "يمكن الوصول إلى الميزات المناسبة للمستخدمين التقنيين."
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "عدد القواعد المسجلة: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "لا تضف محتوى من مصادر غير موثوقة"
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "تمكين الحظر الصارم"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "سيتم حظر التنقل إلى المواقع غير المرغوب فيها، وسيتم تقديم خيار لك للمتابعة."
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "تصدير..."
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "أداة لحظر المحتوى دون إذن. يحظر الإعلانات وأدوات التتبع وأدوات التعدين وغيرها فور التثبيت."
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "لا تصفية"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "أساسي"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "الأفضل"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "مكتمل"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "البحث عن القوائم"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "استيراد واضافة…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "قائمة بأسماء المضيفين التي لن تتم أي تصفية لها"
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[أسماء النطاقات الرئيسية فقط]\nexample.com\ngames.example"
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "تصفية الشبكة المتقدمة بالإضافة إلى تصفية موسعة محددة من قوائم التصفية المحددة.\n\nيتطلب إذنًا واسعًا لقراءة البيانات وتعديلها على جميع مواقع الويب."
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} قواعد، محولة من {{filterCount}} مرشحات الشبكة"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "إنشاء"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "اختيار"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "معاينة"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "حرك الشريط لتحديد أفضل تطابق"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "أنشئ تصفية مخصّصة"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "وضع التصفية"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "أقل"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "على هذا الموقع"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "المزيد"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "افتح لوحة التحكم"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "الإبلاغ عن مشكلة في هذا الموقع"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "إرجاع"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "حفظ"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "الإعدادات"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "إظهار عدد الطلبات المحظورة على أيقونة شريط الأدوات"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "رجوع"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "إغلاق هذه النافذة"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "لا تحذرني مرة أخرى من هذا الموقع"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "دون معلمات"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "متابعة"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "تم حظر الصفحة بسبب وجود فلتر مطابق في {{listname}}."
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "الصفحة المحظورة تريد إعادة التوجيه إلى موقع آخر. إذا اخترت المتابعة، فسوف تنتقل مباشرة إلى: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "لقد منع uBO Lite تحميل الصفحة التالية:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "الصفحة محجوبة"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "العثور على تقارير مماثلة"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "إنشاء تقرير جديد"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "الإبلاغ عن مشكلات الفلترة الخاصة بمواقع الويب المحددة إلى\u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">uBlockOrigin/uAssets\u003C/code>\u003C/span>متتبع المشكلة\u003C/span>يتطلب حساب GitHub\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "معلومات استكشاف وإصلاح الأخطاء"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "تصنيف صفحة الويب على أنها \"NSFW\" (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">\"غير آمنة للعمل\"\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "الإبلاغ عن مشكلة في عوامل التصفية"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "لتجنب تحميل المتطوعين بتقارير مكررة، يرجى التأكد من أن المشكلة لم يتم الإبلاغ عنها بالفعل."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "صفحة الويب..."
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "— اختر إدخالًا —"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "يظهر الإعلانات أو بقايا الإعلانات"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "يحتوي على تراكبات أو إزعاجات أخرى."
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "يكتشف uBO Lite"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "لديه مشاكل متعلقة بالخصوصية"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "تعطل عند تفعيل uBO Lite."
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "يفتح علامات تبويب أو نوافذ غير مرغوب فيها."
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "يؤدي إلى البرامج الضارة والإحتيال"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "عنوان صفحة الويب"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "أزِل التصفية المخصّصة"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "اختر تصفية أدناه لتمييز العناصر المطابقة في صفحة الويب. انقر على سلة المهملات لإزالة التصفية."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "دخول وضع تحديد العناصر السريع"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "الخروج من وضع تحديد العناصر السريع"
+   }
+}

@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "広告"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "迷惑系"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "既定"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "マルウェアドメイン"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "その他"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "プライバシー"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "地域・言語"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "更新履歴"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "ソースコード (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "貢献者"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "外部依存関係 (GPLv3 互換):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "フィルターリスト"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "uBO Lite について"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "プライバシーポリシー"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "ソースコード"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "翻訳"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "フィルタリングモード変更時にページを自動再読み込みする"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "特定のフィルターリストを使った基本ネットワークフィルタリングです。\n\nウェブサイトのデータの読み書き権限を必要としません。"
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "動作"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "特定のフィルターリストを使ったネットワークフィルタリングと一般的・サイト別の拡張フィルタリングです。\n\nすべてのウェブサイトのデータの読み書き権限を必要とします。\n\n一般的な拡張フィルタリングを使うとリソース消費量が増えるかもしれません。"
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — ダッシュボード"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "デフォルトのフィルタリングモードは、サイト毎のフィルタリングモードで上書きされます。サイトにぴったりなモードにいつでも好きなように調整できます。どのモードも一長一短です。"
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "デフォルトのフィルタリングモード"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "表示:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "独自DNRルール"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNRのルール..."
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "動的ルールセット"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "フィルタリングの詳細"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "セッションルールセット"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "開発"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "開発者モード"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "技術ユーザーに適した機能へのアクセスを有効にします。"
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "登録されたルールの数: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "信頼できないソースから追加しないでください。"
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "厳格なブロックを有効化"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "望ましくない可能性のあるサイトへのナビゲーションはブロックされ、次に進むためのオプションが表示されます。"
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "エクスポート…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "実験的で要求権限の少ないコンテンツブロッカー - 広告・トラッカー・マイニングスクリプトなどをブロック"
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "フィルタリングなし"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "基本"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "最適"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "完全"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "リストを検索"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "インポートと追加"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "フィルタリングを行わないホスト名のリスト"
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[ホスト名のみ]\nexample.com\ngames.example\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "特定のフィルターリストを使ったネットワークフィルタリングとサイト別の拡張フィルタリングです。\n\nすべてのウェブサイトのデータの読み書き権限を必要とします。"
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} 件のルール ({{filterCount}} 件のネットワークフィルターから変換)"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "作成"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "取得"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "プレビュー"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "スライダーを動かして最適なものを選ぶ"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "カスタムフィルターの作成"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "フィルタリングモード"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "折りたたむ"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "このサイト上で"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "さらに表示"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "ダッシュボードを開く"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "このサイト上での問題を報告"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "元に戻す"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "保存"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "設定"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "ブロックしたリクエストの数をツールバーのアイコンに表示"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "戻る"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "このウィンドウを閉じる"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "今後このサイトに関する警告を表示しない"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "パラメータを除いた URL"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "続行する"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "このページは、{{listname}} のフィルターに一致したためブロックされました。"
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "ブロックしたページは別のサイトへリダイレクトしようとしています。続行すると次の URL へ移動します: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "uBO Lite はこのページの読み込みをブロックしています："
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "ブロックしたページ"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "似た報告を探す"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "新しい報告を作成"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "\u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> issue tracker\u003C/span> で特定のウェブサイトでのフィルターの問題を報告します。\u003Cu>GitHub アカウントが必要です\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "トラブルシューティング情報"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "ウェブページを “NSFW” (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">“Not Safe For Work”\u003C/a>) としてラベル付け"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "フィルターの問題を報告する"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "重複した報告によってボランティアに負担をかけないように、問題がすでに報告されていないか確認してください。 \u003Cb>注意:\u003C/b> ボタンをクリックすると、ページのオリジンが GitHub に送信されます。"
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "ウェブページ…"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- エントリーを選択 --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "広告または消し残りが表示される"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "オーバーレイなど邪魔なものがある"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "uBO Lite が検出される"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "プライバシーに関連する問題がある"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "uBO Lite 有効時に機能しなくなる"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "勝手にタブやウィンドウが開く"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "悪質ソフトやフィッシングへの誘導"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "ウェブページのアドレス:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "カスタムフィルターの削除"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "下のフィルターを選択すると、ウェブページ内の一致する要素がハイライトされます。フィルタを削除するには、ゴミ箱をクリックしてください。"
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "要素抹消モードを開始"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "要素抹消モードを終了"
+   }
+}

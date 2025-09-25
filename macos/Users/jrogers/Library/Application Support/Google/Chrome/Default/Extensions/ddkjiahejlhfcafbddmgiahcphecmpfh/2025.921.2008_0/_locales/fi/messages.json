@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Mainokset"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Ärsykkeet"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Oletus"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Haittaohjelmia jakelevat verkkotunnukset"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Sekalaiset"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Tietosuoja"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Alueet, kielet"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Muutoshistoria"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Lähdekoodi (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Avustajat"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Ulkopuoliset riippuvuudet (GPLv3-yhteensopiva):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Suodatinlistat"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Tietoja"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "Tietosuojakäytäntö"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Lähdekoodi"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Käännökset"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Lataa sivu suodatustilan vaihtuessa automaattisesti uudelleen"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "Perustason verkkosuodatus valituilla suodatinlistoilla.\n\nEi edellytä sivustojen tietojen luku- ja muokkausoikeutta."
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "Toiminta"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "Edistynyt verkkosuodatus sekä kohdistettu ja yleinen laajempi suodatus valituilla suodatinlistoilla.\n\nEdellyttää kaikki sivustot kattavan, laajemman tietojen luku- ja muokkausoikeuden.\n\nYleinen laajempi suodatus saattaa kasvattaa sivukohtaista resurssien käyttöä."
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — Hallintapaneeli"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "Sivustokohtaiset suodatustilat ohittavat oletusarvoisen suodatustilan. Voit säätää suodatustilan kullekin sivustolle parhaiten sopivaksi. Jokaisella tilalla on hyvät ja huonot puolensa."
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "Oletusarvoinen suodatustila"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "Näytä:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "Omat DNR-säännöt"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNR-säännöt lähteestä…"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Dynaaminen sääntöryhmä"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "Suodatustilan tiedot"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Istunnon sääntöryhmä"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "Kehitys"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Kehittäjätila"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Aktivoi teknisille käyttäjille suunnatut ominaisuudet."
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "Rekisteröityjen sääntöjen määrä: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "Älä lisää sisältöä lähteistä, joihin et luota."
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Käytä tiukkaa estoa"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Potentiaalisesti ei-toivottujen sivustojen avaaminen estetään mahdollisuudella jatkaa."
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "Vie…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Tehokas estotyökalu, joka estää heti asennuksen jälkeen mm. mainokset, seurannat ja kryptolouhijat."
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "ei suodatusta"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "perus"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "optimaalinen"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "täysi"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "Etsi listoja"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "Tuo ja lisää…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "Listaus osotteista, joita ei suodateta."
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[vain isäntänimiä]\nesimerkki.fi\npelit.esimerkki\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "Edistynyt verkkosuodatus sekä kohdistettu laajempi suodatus valituilla suodatinlistoilla.\n\nEdellyttää kaikki sivustot kattavan, laajemman tietojen luku- ja muokkausoikeuden."
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} sääntöä, muunnettu {{filterCount}} verkkosuodattimesta"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "Luo"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "Valitse"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "Esikatsele"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "Valitse sopivin vaihtoehto siirtämällä säädintä"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "Luo uusi suodatin"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "suodatustila"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Vähemmän"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "Tällä sivustolla"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Enemmän"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Avaa hallintapaneeli"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Ilmoita ongelmasta"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "Palauta"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "Tallenna"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Asetukset"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Näytä estettyjen pyyntöjen määrä työkalupalkin kuvakkeessa"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "Palaa takaisin"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "Sulje tämä ikkuna"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "Älä varoita minua tästä sivustosta uudelleen"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "parametritön"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "Jatka"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "Sivu estettiin listalla {{listname}} olevan sännön perusteella."
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "Estetty sivu ohjautuu eri sivustolle. Jos jatkat, siirryt suoraan osoitteeseen {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "uBO Lite on estänyt seuraavan sivun latauksen:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "Sivu estettiin"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "Etsi GitHubista vastaavia ilmoituksia"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "Luo GitHubiin uusi ilmoitus"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "Ilmoita sivustokohtaisista suodatinongelmista \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> -ongelmaseurantaan\u003C/span>. \u003Cu>Vaatii GitHub-tilin.\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "Vianselvitystiedot"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "Luokittele verkkosivu \"NSFW\"-tyyppiseksi (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">\"Not Safe For Work\", eli ns. työpaikalle sopimattomaksi\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "Ilmoita suodatinongelmasta"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Välttääksesi vapaaehtoisten kuormittamisen ylimääräisillä ilmoituksilla, tarkasta ensin onko ongelmasta jo ilmoitettu. \u003Cb>Huomioi:\u003C/b> Painikkeen painallus lähettää sivun osoitteen GitHubiin."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "Verkkosivu…"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- Valitse aihe --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Näyttää mainoksia tai niiden jäänteitä"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Sisältää peiteruutuja tai muita ärsykkeitä"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Tunnistaa uBO Liten"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Sisältää tietosuojaan liittyviä ongelmia"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Ei toimi oikein uBO Liten ollessa käytössä"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Avaa ei-toivottuja välilehtiä tai ikkunoita"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Johtaa badwareen ja tietojenkalasteluun"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "Verkkosivun osoite:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "Poista oma suodatin"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "Valitse alta suodatin korostaaksesi verkkosivulta sitä vastaavat elementit. Poista suodatin klikkamalla roskakoria."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "Poista elementti"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "Poistu elementtien piilotustilasta"
+   }
+}

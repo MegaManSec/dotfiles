@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AirDrop</key>
+	<integer>2</integer>
+	<key>Battery</key>
+	<integer>1</integer>
+	<key>BatteryShowPercentage</key>
+	<true/>
+	<key>Bluetooth</key>
+	<integer>2</integer>
+	<key>IRServiceToken</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwTFBVVJG51bGzTDQ4PEBES
+	ViRjbGFzc15zZXJ2aWNlUGFja2FnZV8QEXNlcnZpY2VJZGVudGlmaWVygASAA4ACXxAX
+	Y29tLmFwcGxlLmNvbnRyb2xjZW50ZXIQANIWFxgZWiRjbGFzc25hbWVYJGNsYXNzZXNe
+	SVJTZXJ2aWNlVG9rZW6iGhteSVJTZXJ2aWNlVG9rZW5YTlNPYmplY3QIERokKTI3SUxR
+	U1lfZm18kJKUlrCyt8LL2t3sAAAAAAAAAQEAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAPU=
+	</data>
+	<key>KeyboardBrightness</key>
+	<integer>2</integer>
+	<key>NowPlaying</key>
+	<integer>8</integer>
+	<key>Sound</key>
+	<integer>18</integer>
+	<key>WiFi</key>
+	<integer>2</integer>
+</dict>
+</plist>

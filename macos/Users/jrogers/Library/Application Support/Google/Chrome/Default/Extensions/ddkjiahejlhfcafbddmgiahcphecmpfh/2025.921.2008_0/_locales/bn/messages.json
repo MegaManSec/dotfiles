@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "বিজ্ঞাপন"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "বিরক্তি"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "পূর্ব-নির্ধারিত"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "ম্যালওয়্যার ডোমেইন"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "বিবিধ"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "গোপনীয়তা"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "অঞ্চল, ভাষা"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "পরিবর্তনসূচি"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Source code (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "অবদানকারী"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "বাহ্যিক নির্ভরতা (GPLv3-সামঞ্জস্যপূর্ণ):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "ছাঁকন তালিকা"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "সম্পর্কে"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "গোপনীয়তার নীতিমালা"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "উৎস কোড"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "অনুবাদসমূহ"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "ফিল্টারিং মোড পরিবর্তন করার সময় স্বয়ংক্রিয়ভাবে পুনরায় লোড করুন"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "নির্বাচিত ফিল্টার তালিকা থেকে মৌলিক নেটওয়ার্ক ফিল্টারিং।\n\nওয়েবসাইটগুলোতে ডেটা পড়তে এবং পরিবর্তন করার জন্য অনুমতির প্রয়োজন হয় না।"
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "আচরণ"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "উন্নত নেটওয়ার্ক ফিল্টারিং এবং নির্বাচিত ফিল্টার তালিকা থেকে নির্দিষ্ট এবং জেনেরিকের বর্ধিত ফিল্টারিং।\n\nসকল ওয়েবসাইটে ডেটা পড়তে এবং পরিবর্তন করার জন্য বিস্তৃত অনুমতির প্রয়োজন৷\n\nজেনেরিক বর্ধিত ফিল্টারিং উচ্চতর ওয়েবপেজ সম্পদসমূহের ব্যবহারের কারণ হতে পারে।"
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — ড্যাশবোর্ড"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "ডিফল্ট ফিল্টারিং মোড প্রতি-ওয়েবসাইটে ফিল্টারিং মোড দ্বারা ওভাররাইড করা হবে। আপনি যে কোনও ওয়েবসাইটে ফিল্টারিং মোড সামঞ্জস্য করতে পারেন যা সেই ওয়েবসাইটে সবচেয়ে ভাল কাজ করে। প্রতিটি মোড এর সুবিধা এবং অসুবিধা আছে।"
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "ডিফল্ট ফিল্টারিং মোড"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "View:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "Custom DNR rules"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNR rules of …"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Dynamic ruleset"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "Filtering mode details"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Session ruleset"
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "Develop"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "ডেভেলপার মোড"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "প্রযুক্তিগত ব্যবহারকারীদের জন্য উপযুক্ত বৈশিষ্ট্যগুলিতে অ্যাক্সেস সক্ষম করুন"
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "Number of registered rules: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "Do not add content from untrusted sources"
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "কঠোর অবরোধ চালু করো"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "সম্ভাব্য অযাচিত ওয়েবসাইট অবরুদ্ধ করা হবে, আর সেখানে আগানোর উপায় দেওয়া থাকবে।"
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "Export…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "একটি পরীক্ষামূলক, অনুমতিহীন কন্টেন্ট নিষিদ্ধকারক। বিজ্ঞাপন, অনুসরণকারী, খননকারী, এবং আরো জিনিস নিষিদ্ধ করো ইন্সটলের সাথে সাথেই।"
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "ফিল্টারিং নেই"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "মৌলিক"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "কার্যকরী"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "সম্পূর্ণ"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "তালিকা খুঁজো"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "Import and append…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "হোস্টনেমের তালিকা যেগুলোর কোনো ফিল্টারিং হবে না"
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[hostnames only]\nexample.com\ngames.example\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "উন্নত নেটওয়ার্ক ফিল্টারিং এবং নির্বাচিত ফিল্টার তালিকা থেকে নির্দিষ্ট বর্ধিত ফিল্টারিং।\n\nসকল ওয়েবসাইটের ডেটা পড়তে এবং পরিবর্তন করার জন্য বিস্তৃত অনুমতির প্রয়োজন৷"
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} rules, converted from {{filterCount}} network filters"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "Create"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "Pick"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "Preview"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "Move the slider to select the best match"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "Create a custom filter"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "ফিল্টারিং মোড"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "কম"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "On this website"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "আরো"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "ড্যাশবোর্ড খুলুন"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "এই ওয়েবসাইট নিয়ে সমস্যা জানাও"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "Revert"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "সেভ করুন"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "সেটিংস"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "কতগুলো অনুরোধ অবরুদ্ধ করা হয়েছে তা টুলবার আইকনে দেখাও"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "ফিরে যাও"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "জানালা বন্ধ করো"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "এই সাইট নিয়ে পুনরায় সতর্ক করবে না"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "প্যারামিটার নেই"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "এগিয়ে যাও"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "{{listname}} এর একটি ছাঁকনির জন্য এই পাতাটি অবরুদ্ধ করা হয়েছে।"
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "এই অবরুদ্ধ পাতাটি আরেকটি ওয়েবসাইটে নেয়। এগিয়ে যেতে চাইলে, সরাসরি এই জায়গায় যাবে: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "ইউবিও লাইট এই পাতা লোড হওয়া আটকিয়েছে:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "পাতা অবরুদ্ধ"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "একই রকম অভিযোগ দেখ"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "নতুন অভিযোগ"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "নির্দিষ্ট ছাঁকনি বিষয়ক সমস্যা এখানে জানাও \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">\u003Ccode>uBlockOrigin/uAssets\u003C/code> সমস্যা ট্র্যাকার\u003C/span>. \u003Cu>গিটহাব অ্যাকাউন্ট প্রয়োজন।\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "সমস্যা সমাধানের তথ্য"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "ওয়েব পৃষ্ঠাটিকে “NSFW” হিসাবে চিহ্নিত করুন (\u003Ca href=\"https://wikipedia.org/wiki/Not_safe_for_work\">“Not Safe For Work”\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "ছাঁকনি নিয়ে সমস্যা জানাও"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "একই প্রতিবেদন দুইবার এড়াতে ও স্বেচ্ছাসেবকদের বোঝা কমাতে, অনুগ্রহ করে যাচাই করো যে সমস্যাটি ইতিমধ্যে জানানো হয়নি।"
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "ওয়েবপৃষ্ঠা…"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- একটি ভুক্তি নির্বাচন করো --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "বিজ্ঞাপন বা বিজ্ঞাপনের অবশিষ্টাংশ দেখায়"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "ওভারলে বা অন্যান্য উপদ্রব আছে"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "ইউবিও লাইট শনাক্ত করে"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "গোপনীয়তা-সম্পর্কিত সমস্যা আছে"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "ইউবিও লাইট চালু করলে সমস্যা হয়"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "অবাঞ্ছিত ট্যাব বা জানালা খুলে"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "ব্যাডওয়্যার, প্রতারণমূলক জায়গায় নেয়"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "ওয়েবপৃষ্ঠার ঠিকানা:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "Remove a custom filter"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "Select a filter below to highlight matching elements in the webpage. Click the trash can to remove a filter."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "এলিমেন্ট জ্যাপার মোডে প্রবেশ করুন"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "Exit element zapper mode"
+   }
+}

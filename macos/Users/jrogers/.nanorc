@@ -1,0 +1,12 @@
+include /usr/local/etc/nanorc/brew/*.nanorc
+include /usr/local/etc/nanorc/*.nanorc
+
+set nowrap
+set constantshow
+set jumpyscrolling
+set noconvert
+set tabsize 4
+set tabstospaces
+set numbercolor white
+set historylog
+#set fill 78

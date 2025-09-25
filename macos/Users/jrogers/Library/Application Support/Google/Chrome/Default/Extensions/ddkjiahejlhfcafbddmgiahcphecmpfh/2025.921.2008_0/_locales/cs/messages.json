@@ -1,0 +1,378 @@
+{
+   "3pGroupAds": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Reklamy"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Dotěrnosti"
+   },
+   "3pGroupDefault": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Výchozí"
+   },
+   "3pGroupMalware": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Malware domény"
+   },
+   "3pGroupMisc": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Ostatní"
+   },
+   "3pGroupPrivacy": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Soukromí"
+   },
+   "3pGroupRegions": {
+      "description": "Header for a ruleset section in 'Filter lists pane'",
+      "message": "Regionální, jazykové"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Přehled změn"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Zdrojový kód (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Přispěvatelé"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Externí závislosti (kompatibilní s GPLv3):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Seznamy filtrů"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "O rozšíření"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "Ochrana soukromí"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Zdrojový kód"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Překlady"
+   },
+   "autoReloadLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Automaticky znovu načíst stránku při změně filtrovacího režimu"
+   },
+   "basicFilteringModeDescription": {
+      "description": "This describes the 'basic' filtering mode",
+      "message": "Základní filtrování sítě z vybraných seznamů filtrů.\n\nNevyžaduje oprávnění ke čtení a změně údajů na webových stránkách."
+   },
+   "behaviorSectionLabel": {
+      "description": "The header text for the 'Behavior' section",
+      "message": "Chování"
+   },
+   "completeFilteringModeDescription": {
+      "description": "This describes the 'complete' filtering mode",
+      "message": "Pokročilé síťové filtrování plus specificky a obecně rozšířené filtrování z vybraných seznamů filtrů.\n\nVyžaduje rozsáhlé oprávnění ke čtení a změně dat na všech webech.\n\nObecně rozšířené filtrování může způsobit vyšší využití zdrojů webových stránek."
+   },
+   "dashboardName": {
+      "description": "English: uBO Lite — Dashboard",
+      "message": "uBO Lite — Ovládací panel"
+   },
+   "defaultFilteringModeDescription": {
+      "description": "This describes the default filtering mode setting",
+      "message": "Výchozí režim filtrování bude přepsán režimy filtrování pro jednotlivé webové stránky. Režim filtrování na libovolném webu můžete upravit podle toho, který režim na daném webu funguje nejlépe. Každý režim má své výhody a nevýhody."
+   },
+   "defaultFilteringModeSectionLabel": {
+      "description": "The header text for the default filtering mode section",
+      "message": "Výchozí filtrovací režim"
+   },
+   "developDropdownLabel": {
+      "description": "A label of a dropdown list",
+      "message": "Zobrazit:"
+   },
+   "developOptionCustomDnrRules": {
+      "description": "An option in a dropdown list",
+      "message": "Vlastní pravidla DNR"
+   },
+   "developOptionDnrRulesOf": {
+      "description": "A section header in a dropdown list",
+      "message": "DNR pravidla …"
+   },
+   "developOptionDynamicRuleset": {
+      "description": "An option in a dropdown list",
+      "message": "Dynamický seznam pravidel"
+   },
+   "developOptionFilteringModeDetails": {
+      "description": "An option in a dropdown list",
+      "message": "Detaily filtovacího módu"
+   },
+   "developOptionSessionRuleset": {
+      "description": "An option in a dropdown list",
+      "message": ""
+   },
+   "developPageName": {
+      "description": "appears as tab name in dashboard. Inspired from 'Develop' menu in Safari, see https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "message": "Vývoj"
+   },
+   "developerModeLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Vývojářský režim"
+   },
+   "developerModeLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Umožňuje přístup k funkcím vhodným pro technicky zdatné uživatele."
+   },
+   "dnrRulesCountInfo": {
+      "description": "Short sentence to report the number of currently registered DNR rules",
+      "message": "Počet registrovaných pravidel: {count}"
+   },
+   "dnrRulesWarning": {
+      "description": "Short description of the DNR rules editor pane",
+      "message": "Nepřidávat filtry z nedůvěryhodných zdrojů"
+   },
+   "enableStrictBlockLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Povolit přísné blokování"
+   },
+   "enableStrictBlockLegend": {
+      "description": "Short description for a checkbox in the options page",
+      "message": "Navigace na potenciálně nežádoucí stránky bude zablokována a bude vám nabídnuta možnost pokračovat."
+   },
+   "exportButton": {
+      "description": "Text for buttons used to export content",
+      "message": "Exportovat…"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin Lite"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Účinný blokátor obsahu. Okamžitě po instalaci blokuje reklamy, sledovače, těžaře a další."
+   },
+   "filteringMode0Name": {
+      "description": "Name of blocking mode 0",
+      "message": "žádné filtrování"
+   },
+   "filteringMode1Name": {
+      "description": "Name of blocking mode 1",
+      "message": "základní"
+   },
+   "filteringMode2Name": {
+      "description": "Name of blocking mode 2",
+      "message": "optimální"
+   },
+   "filteringMode3Name": {
+      "description": "Name of blocking mode 3",
+      "message": "kompletní"
+   },
+   "findListsPlaceholder": {
+      "description": "Placeholder for the input field used to find lists",
+      "message": "Najít seznamy"
+   },
+   "importAndAppendButton": {
+      "description": "Text for buttons used to import and append content",
+      "message": "Importovat a připojit…"
+   },
+   "noFilteringModeDescription": {
+      "description": "A short description for the editable field which lists trusted sites",
+      "message": "Seznam názvů hostitelů, pro které nebude probíhat žádné filtrování"
+   },
+   "noFilteringModePlaceholder": {
+      "description": "Default text for in edit field",
+      "message": "[pouze názvy hostitelů]\nexample.com\ngames.example\n..."
+   },
+   "optimalFilteringModeDescription": {
+      "description": "This describes the 'optimal' filtering mode",
+      "message": "Pokročilé síťové filtrování plus specificky rozšířené filtrování z vybraných seznamů filtrů.\n\nVyžaduje rozsáhlé oprávnění ke čtení a změně dat na všech webech."
+   },
+   "perRulesetStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{ruleCount}} pravidel, převedeno z {{filterCount}} síťových filtrů"
+   },
+   "pickerCreate": {
+      "description": "Text for the button to create the filter",
+      "message": "Vytvořit"
+   },
+   "pickerPick": {
+      "description": "Text for the button to re-enter element-picking mode",
+      "message": "Vybrat"
+   },
+   "pickerPreview": {
+      "description": "Text for the button to activate preview mode",
+      "message": "Náhled"
+   },
+   "pickerSliderLabel": {
+      "description": "Label to describe the purpose of the slider",
+      "message": "Posunutím jezdce vyberte nejlepší shodu"
+   },
+   "pickerTipEnter": {
+      "description": "Label for the menu entry to create cosmetic filters",
+      "message": "Vytvořit vlastní filtr"
+   },
+   "popupFilteringModeLabel": {
+      "description": "Label in the popup panel for the current filtering mode",
+      "message": "Filtrovací režim"
+   },
+   "popupLessButton": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Méně"
+   },
+   "popupLocalToolsLabel": {
+      "description": "Label in the popup panel for the local tools section",
+      "message": "Na této webové stránce"
+   },
+   "popupMoreButton": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Více"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Otevřít ovládací panel"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Nahlásit problém na této webové stránce"
+   },
+   "revertButton": {
+      "description": "Text for buttons used to revert changes",
+      "message": "Vrátit"
+   },
+   "saveButton": {
+      "description": "Text for buttons used to save changes",
+      "message": "Uložit"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Nastavení"
+   },
+   "showBlockedCountLabel": {
+      "description": "Label for a checkbox in the options page",
+      "message": "Zobrazit počet blokovaných požadavků u ikony v panelu nástrojů"
+   },
+   "strictblockBack": {
+      "description": "A button to go back to the previous webpage",
+      "message": "Zpět"
+   },
+   "strictblockClose": {
+      "description": "A button to close the current tab",
+      "message": "Zavřít okno"
+   },
+   "strictblockDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "Nevarujte mě znovu o této stránce"
+   },
+   "strictblockNoParamsPrompt": {
+      "description": "Label to be used for the parameter-less URL",
+      "message": "bez parametrů"
+   },
+   "strictblockProceed": {
+      "description": "A button to navigate to the blocked page",
+      "message": "Pokračovat"
+   },
+   "strictblockReasonSentence1": {
+      "description": "Text informing about what is causing the page to be blocked",
+      "message": "Stránka byla zablokována z důvodu shodného filtru v {{listname}}."
+   },
+   "strictblockRedirectSentence1": {
+      "description": "Text warning about an incoming redirect",
+      "message": "Zablokovaná stránka vás chce přesměrovat na jiný web. Pokud se rozhodnete pokračovat, přejdete přímo na: {{url}}"
+   },
+   "strictblockSentence1": {
+      "description": "Sentence used in the strict-blocked page",
+      "message": "uBO Lite zabránil načtení následující stránky:"
+   },
+   "strictblockTitle": {
+      "description": "Webpage title for the strict-blocked page",
+      "message": "Stránka zablokována"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "Vyhledat podobná hlášení"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external webpage in Support pane",
+      "message": "Vytvořit nové hlášení"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "Nahlaste problémy s filtrem u učitých webových stránek do \u003Cspan data-url=\"https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue\">sledovače problémů \u003Ccode>uBlockOrigin/uAssets\u003C/code>\u003C/span>. \u003Cu>Vyžaduje účet GitHub.\u003C/u>"
+   },
+   "supportS5H": {
+      "description": "Label of 'Troubleshooting information' section in 'Report a filter issue' page",
+      "message": "Informace o řešení problémů"
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "Označit webovou stránku jako “NSFW” (\u003Ca href=\"https://cs.wikipedia.org/wiki/Not_safe_for_work\">“Není bezpečné pro práci”\u003C/a>)"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "Nahlásit problém s filtrem"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Abyste dobrovolníky nezatěžovali duplicitními hlášeními, ověřte si, zda již problém nebyl nahlášen."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "Webová stránka…"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- Vyberte položku --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Zobrazuje reklamy nebo zbytky reklam"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Je překrytá nebo má jiné nedostatky"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Detekuje uBO Lite"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Má problémy související se soukromím"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Je rozbitá, když je povolen uBO Lite"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Otevírá nechtěné karty nebo okna"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Vede k badwaru, phishingu"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "Adresa webové stránky:"
+   },
+   "unpickerTipEnter": {
+      "description": "Label for the menu entry to delete cosmetic filters",
+      "message": "Odebrat vlastní filtr"
+   },
+   "unpickerUsage": {
+      "description": "Summary description on how to use the tool to remove custom filters",
+      "message": "Výběrem níže uvedeného filtru zvýrazníte odpovídající prvky na webové stránce. Kliknutím na koš filtr odstraníte."
+   },
+   "zapperTipEnter": {
+      "description": "Tooltip for the button used to enter zapper mode",
+      "message": "Přejít do režimu dočasného skrytí prvků"
+   },
+   "zapperTipQuit": {
+      "description": "Tooltip for the button used to exit zapper mode",
+      "message": "Opustit režim dočasného skrytí prvků"
+   }
+}

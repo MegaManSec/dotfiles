@@ -12,3 +12,5 @@
     insteadOf = git@github.com:Work/
 [url "ssh://git@github.com-work/Work/"]
     insteadOf = ssh://git@github.com/Work/
+[pull]
+    rebase = true

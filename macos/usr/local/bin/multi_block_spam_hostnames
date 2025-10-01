@@ -37,7 +37,7 @@ if [ "$sys_type" = "FreeBSD" ]; then
 elif [ "$sys_type" = "Linux" ]; then
   systemctl restart dnscrypt-proxy
 elif [ "$sys_type" = "Darwin" ]; then
-  brew services reload dnscrypt-proxy
+  /opt/homebrew/bin/brew services reload dnscrypt-proxy
 else
   echo "Unknown system type, could not reload dnscrypt-proxy: $sys_type"
   exit 1

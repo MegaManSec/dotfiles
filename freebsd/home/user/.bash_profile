@@ -167,4 +167,4 @@ enter_directory() {
   fi
 
 }
-export PROMPT_COMMAND="enter_directory"
+export PROMPT_COMMAND="$PROMPT_COMMAND; enter_directory"

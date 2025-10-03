@@ -11,8 +11,25 @@ is_uint() {
   esac
 }
 
+print_help() {
+  echo "Usage: body [-A <lines_after>] [-B <lines_before>] [-C <lines_before_and_after>] [--color=WHEN] [-n] [-N] <filename(s)>"
+  echo "
+  Context control:
+    -A NUM   print NUM lines of trailing context
+    -B NUM   print NUM lines of leading context
+    -C NUM   print NUM lines of output context
+
+    --color=WHEN   use markers to highlight the matching strings;
+                   WHEN is 'always', 'never', or 'auto'
+
+  Output control:
+    -n       do not print line number with output lines
+    -N       do not print file name with output lines
+  "
+}
+
 if [ "$#" -lt 1 ]; then
-  echo "Usage: $0 [-B <lines_before>] [-A <lines_after>] [-C <lines_before_and_after>] [-n] [-N] <filename(s)>"
+  print_help
   exit 1
 fi
 
@@ -21,20 +38,31 @@ no_lines=0
 def_lines_before=0
 def_lines_after=0
 
+use_color=false
+COLOR_MODE="auto"
+COLOR_FILENAME=""
+COLOR_LINE=""
+COLOR_SEP=""
+COLOR_RESET=""
+
 while [ "$#" -gt 0 ]; do
   case $1 in
-    -B*)
-      lines_before="${1#-B}"
-      lines_before="${lines_before#=}"
-      if [ -z "$lines_before" ] && [ -n "$2" ]; then
-        lines_before="$2"
+    --help*)
+      print_help
+      exit 0
+      ;;
+    --color*)
+      COLOR_MODE="${1#--color}"
+      COLOR_MODE="${COLOR_MODE#=}"
+      if [ -z "$COLOR_MODE" ] && [ -n "$2" ]; then
+        COLOR_MODE="$2"
         shift
       fi
-      if ! is_uint "$lines_before"; then
-        echo "Invalid -B option: $lines_before" >&2
+
+      if [[ ! "$COLOR_MODE" =~ ^(auto|always|never)$ ]]; then
+        echo "body: $COLOR_MODE: invalid color mode" >&2
         exit 1
       fi
-
       ;;
     -A*)
       lines_after="${1#-A}"
@@ -45,9 +73,22 @@ while [ "$#" -gt 0 ]; do
       fi
 
       if ! is_uint "$lines_after"; then
-        echo "Invalid -A option: $lines_after" >&2
+        echo "body: $lines_after: invalid context length argument" >&2
         exit 1
       fi
+      ;;
+    -B*)
+      lines_before="${1#-B}"
+      lines_before="${lines_before#=}"
+      if [ -z "$lines_before" ] && [ -n "$2" ]; then
+        lines_before="$2"
+        shift
+      fi
+      if ! is_uint "$lines_before"; then
+        echo "body: $lines_before: invalid context length argument" >&2
+        exit 1
+      fi
+
       ;;
     -C*)
       lines_before="${1#-C}"
@@ -58,7 +99,7 @@ while [ "$#" -gt 0 ]; do
       fi
       lines_after="$lines_before"
       if ! is_uint "$lines_after"; then
-        echo "Invalid -C option: $lines_after" >&2
+        echo "body: $lines_after: invalid context length argument" >&2
         exit 1
       fi
       ;;
@@ -70,15 +111,28 @@ while [ "$#" -gt 0 ]; do
       ;;
     *)
       if [[ ! "$1" =~ ^-.* ]]; then
-        filenames+=("$(readlink -f -- "$1")") #["$1"]=1
+        filenames+=("$1") #"$(readlink -f -- "$1")") #["$1"]=1
       else
-        echo "Invalid option: $1" >&2
+        echo "body: invalid option -- '$1'" >&2
         exit 1
       fi
       ;;
   esac
   shift
 done
+
+case "$COLOR_MODE" in
+  always) use_color=true;;
+  never)  use_color=false;;
+  auto) [[ -t 1 ]] && use_color=true;;
+esac
+
+if $use_color; then
+  COLOR_FILENAME=$'\E[35m'
+  COLOR_LINE=$'\E[32m'
+  COLOR_SEP=$'\E[36m'
+  COLOR_RESET=$'\E[0m'
+fi
 
 lines_before="${lines_before:-$def_lines_before}"
 lines_after="${lines_after:-$def_lines_after}"
@@ -92,7 +146,7 @@ fi
 
 for filename in "${filenames[@]}"; do
   if ! [ -f "$filename" ] || ! [ -r "$filename" ]; then
-#    echo "File does not exist: $filename" >&2
+    echo "body: $filename: No such file" >&2
     continue
   fi
 
@@ -113,20 +167,18 @@ for filename in "${filenames[@]}"; do
 
   if [ "$no_lines" -eq 1 ]; then
     if [ "$no_files" -eq 1 ]; then
-      [ "$num_files" -ne 1 ] && sed -n "$start_line,${end_line}p" "$filename"  && continue
+      [ "$num_files" -ne 1 ] && sed -n "$start_line,${end_line}p" "$filename" && continue
     else
-      [ "$num_files" -ne 1 ] && sed -n "$start_line,${end_line}p" "$filename" | sed "s|^|$filename:|" && continue
+      [ "$num_files" -ne 1 ] && sed -n "$start_line,${end_line}p" "$filename" | sed "s|^|${COLOR_FILENAME}${filename}${COLOR_RESET}${COLOR_SEP}:${COLOR_RESET}|" && continue
     fi
-
     sed -n "$start_line,${end_line}p" "$filename"
   else
     if [ "$no_files" -eq 1 ]; then
-      [ "$num_files" -ne 1 ] && sed "$start_line,$end_line"'!d;=' "$filename" | sed 'N;s/\n/:/' && continue
+      [ "$num_files" -ne 1 ] && sed "$start_line,$end_line"'!d;=' "$filename" | sed "N;s/^\(.*\)\n\(.*\)/${COLOR_LINE}\1${COLOR_RESET}${COLOR_SEP}:${COLOR_RESET}\2/" && continue
     else
-      [ "$num_files" -ne 1 ] && sed "$start_line,$end_line"'!d;=' "$filename" | sed 'N;s/\n/:/' | sed "s|^|$filename:|" && continue
+      [ "$num_files" -ne 1 ] && sed "$start_line,$end_line"'!d;=' "$filename" | sed "N;s/^\(.*\)\n\(.*\)/${COLOR_FILENAME}${filename}${COLOR_RESET}${COLOR_SEP}:${COLOR_RESET}${COLOR_LINE}\1${COLOR_RESET}${COLOR_SEP}:${COLOR_RESET}\2/" && continue
     fi
 
-    sed "$start_line,$end_line"'!d;=' "$filename" | sed 'N;s/\n/:/'
+    sed "$start_line,$end_line"'!d;=' "$filename" | sed "N;s/^\(.*\)\n\(.*\)/${COLOR_LINE}\1${COLOR_RESET}${COLOR_SEP}:${COLOR_RESET}\2/"
   fi
-
 done

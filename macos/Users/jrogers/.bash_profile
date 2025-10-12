@@ -168,3 +168,13 @@ enter_directory() {
 
 }
 export PROMPT_COMMAND="$PROMPT_COMMAND; enter_directory"
+alias grpe=grep
+
+ntmp() {
+  dir="${TMPDIR:-/tmp}/nano"
+  mkdir -p "$dir" || return
+  f=$(mktemp "$dir/nano.XXXXXX") || return
+  editor=${VISUAL:-${EDITOR:-vi}}
+  eval "$editor \"\$f\""
+  [ -s "$f" ] && printf '%s\n' "$f" || rm -f "$f"
+}

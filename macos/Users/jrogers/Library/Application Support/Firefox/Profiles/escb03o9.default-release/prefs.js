@@ -58,7 +58,7 @@ user_pref("browser.ml.linkPreview.enabled", false)
 user_pref("extensions.ml.enabled", false)
 user_pref("browser.ml.pageAssist.enabled", false)
 user_pref("browser.tabs.groups.smart.enabled", false)
-user_pref("browser.tabs.groups.smart.userEnable", false)
+user_pref("browser.tabs.groups.smart.userEnabled", false)
 user_pref("browser.pageActions.persistedActions", "{\"ids\":[\"bookmark\"],\"idsInUrlbar\":[\"bookmark\"],\"idsInUrlbarPreProton\":[],\"version\":1}");
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.policies.runOncePerModification.extensionsInstall", "[\"https://releases.mozilla.org/pub/firefox/releases/142.0.1/mac/xpi/de.xpi\",\"https://releases.mozilla.org/pub/firefox/releases/142.0.1/mac/xpi/es-MX.xpi\",\"https://releases.mozilla.org/pub/firefox/releases/142.0.1/mac/xpi/fr.xpi\",\"https://releases.mozilla.org/pub/firefox/releases/142.0.1/mac/xpi/ja-JP-mac.xpi\"]");

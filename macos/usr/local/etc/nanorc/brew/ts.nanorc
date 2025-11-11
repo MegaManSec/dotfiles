@@ -1,10 +1,10 @@
-syntax "typescript" "\.(ts)|(tsx)$"
+syntax "typescript" "\.(ts)$"
 header "^#!.*\/(env +)ts-node"
 
 ## Default
 color white "^.+$"
 
-## Decimal, octal and hexadecimal numbers
+## Decimal, cotal and hexadecimal numbers
 color yellow "\<[-+]?([1-9][0-9]*|0[0-7]*|0x[0-9a-fA-F]+)([uU][lL]?|[lL][uU]?)?\>"
 
 ## Floating point number with at least one digit before decimal point
@@ -45,25 +45,3 @@ color magenta "^\s*//.*$"
 
 ## Trailing whitespace
 color ,green "[[:space:]]+$"
-
-## JSX Attributes
-color brightblue "\<(key|ref|defaultValue|dangerouslySetInnerHTML|suppressContentEditableWarning|suppressHydrationWarning|autoFocus|contentEditable|spellCheck)\>"
-
-## Emphasis tags
-color brightwhite start="<([biu]|em|strong)[^>]*>" end="</([biu]|em|strong)>"
-
-## Tags
-color red start="<" end=">"
-## color brightyellow start="<([biu]|em|strong)[^>]*>" end="</([biu]|em|strong)>"
-color brightyellow ""(\\.|[^"])*""
-
-## Attributes
-color green "[[:space:]](abbr|accept(-charset)?|accesskey|action|[av]?link|alt|archive|axis|background|(bg)?color|border)="
-color green "[[:space:]](cell(padding|spacing)|char(off|set)?|checked|cite|class(id)?|className|compact|code(base|tag)?|cols(pan)?)="
-color green "[[:space:]](content(editable)?|contextmenu|coords|data|datetime|declare|defer|dir|enctype)="
-color green "[[:space:]](for|frame(border)?|headers|height|hidden|href(lang)?|hspace|http-equiv|id|ismap)="
-color green "[[:space:]](label|lang|longdesc|margin(height|width)|maxlength|media|method|multiple)="
-color green "[[:space:]](name|nohref|noresize|noshade|object|on(click|focus|load|mouseover|keypress)|profile|readonly|rel|rev)="
-color green "[[:space:]](rows(pan)?|rules|scheme|scope|scrolling|shape|size|span|src|standby|start|style|summary|pattern)="
-color green "[[:space:]](tabindex|target|text|title|type|usemap|v?align|value(type)?|vspace|width|xmlns|xml:space)="
-color green "[[:space:]](required|disabled|selected)[[:space:]=>]"

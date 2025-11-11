@@ -52,6 +52,13 @@ user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", true);
 user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
 user_pref("browser.newtabpage.activity-stream.impressionId", "{83afcc3d-6717-472a-b1f0-57b3885073b8}");
 user_pref("browser.newtabpage.storageVersion", 1);
+user_pref("browser.ml.enable", false)
+user_pref("browser.ml.chat.enabled", false)
+user_pref("browser.ml.linkPreview.enabled", false)
+user_pref("extensions.ml.enabled", false)
+user_pref("browser.ml.pageAssist.enabled", false)
+user_pref("browser.tabs.groups.smart.enabled", false)
+user_pref("browser.tabs.groups.smart.userEnable", false)
 user_pref("browser.pageActions.persistedActions", "{\"ids\":[\"bookmark\"],\"idsInUrlbar\":[\"bookmark\"],\"idsInUrlbarPreProton\":[],\"version\":1}");
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.policies.runOncePerModification.extensionsInstall", "[\"https://releases.mozilla.org/pub/firefox/releases/142.0.1/mac/xpi/de.xpi\",\"https://releases.mozilla.org/pub/firefox/releases/142.0.1/mac/xpi/es-MX.xpi\",\"https://releases.mozilla.org/pub/firefox/releases/142.0.1/mac/xpi/fr.xpi\",\"https://releases.mozilla.org/pub/firefox/releases/142.0.1/mac/xpi/ja-JP-mac.xpi\"]");
@@ -236,6 +243,7 @@ user_pref("privacy.trackingprotection.emailtracking.enabled", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("screenshots.browser.component.last-screenshot-method", "fullpage");
+user_pref("screenshots.browser.component.enabled", false);
 user_pref("security.disable_button.openCertManager", false);
 user_pref("services.settings.blocklists.addons-bloomfilters.last_check", 1758835024);
 user_pref("services.settings.blocklists.gfx.last_check", 1758835024);

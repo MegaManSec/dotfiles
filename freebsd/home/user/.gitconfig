@@ -2,15 +2,17 @@
     email = MegaManSec@users.noreply.github.com
     name = Joshua Rogers
 [init]
-    defaultBrand = main
     defaultBranch = main
 [diff]
     colorMovedWS = allow-indentation-change
-[init]
-    defaultBranch = main
 [url "git@github.com-work:Work/"]
     insteadOf = git@github.com:Work/
 [url "ssh://git@github.com-work/Work/"]
     insteadOf = ssh://git@github.com/Work/
 [pull]
     rebase = true
+[rebase]
+    instructionFormat = %s%nexec GIT_COMMITTER_DATE=\"%cI\" GIT_COMMITTER_NAME=\"%cN\" GIT_COMMITTER_EMAIL=\"%cE\" git commit --amend --no-edit%n
+    committerDateIsAuthorDate = true
+[alias]
+    rb = rebase --interactive

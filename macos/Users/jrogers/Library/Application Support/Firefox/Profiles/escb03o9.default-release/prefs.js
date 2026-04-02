@@ -335,6 +335,7 @@ user_pref("storage.vacuum.last.content-prefs.sqlite", 1770732832);
 user_pref("storage.vacuum.last.index", 2);
 user_pref("storage.vacuum.last.places.sqlite", 1770006396);
 user_pref("toolkit.profiles.storeID", "5a02b177");
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("toolkit.startup.last_success", 1771673067);
 user_pref("toolkit.telemetry.cachedClientID", "c0ffeec0-ffee-c0ff-eec0-ffeec0ffeec0");
 user_pref("toolkit.telemetry.cachedProfileGroupID", "decafdec-afde-cafd-ecaf-decafdecafde");

@@ -1,0 +1,92 @@
+/* To default to always cleaning links by default if possible, see also:
+   https://joshua.hu/firefox-always-copy-clean-link-url-userchrome-css
+ */
+/* Copy Clean Link */
+/*#context-stripOnShareLink,*/
+
+/* Send Link to Device */
+#context-sendlinktodevice,
+
+/* Translate Selection to ... */
+#context-translate-selection,
+
+/* Separator below "Translate Selection to ... */
+#frame-sep,
+
+/* Separator above "Send Link to Device" */
+#context-sep-sendlinktodevice,
+
+/* Print Selection... */
+#context-print-selection,
+
+/* Take Screenshot */
+#context-take-screenshot,
+
+/* Separator below "Take Screenshot" */
+#context-sep-screenshots,
+
+/* Separator above "Copy Link [..]" */
+#context-sep-selectall,
+
+/* Copy Link to Highlight */
+#context-copy-link-to-highlight,
+
+/* Copy Clean Link to Highlight */
+#context-copy-clean-link-to-highlight,
+
+/* Inspect Accessibility Properties */
+#context-inspect-a11y,
+
+/* Email Video... */
+#context-sendvideo,
+
+/* Bookmark Link... */
+#context-bookmarklink,
+
+/* Save Link As... */
+#context-savelink,
+
+/* Email Image... */
+#context-sendimage,
+
+/* Set Image as Desktop Background… */
+#context-setDesktopBackground,
+
+/* Separator above "Set Image as Desktop Background…" */
+#context-sep-setbackground,
+
+/* Bookmark Page... */
+#context-bookmarkpage,
+
+/* Separator for spelling-related items */
+#spell-separator,
+
+/* Check Spelling */
+#spell-check-enabled,
+
+/* Languages submenu in the spelling section */
+#spell-dictionaries
+{
+  display: none !important;
+}
+
+#context-stripOnShareLink[disabled],
+#context-stripOnShareLink[hidden],
+#context-copylink[hidden] {
+  display: none !important;
+}
+
+#contentAreaContextMenu:has(#context-stripOnShareLink:not([disabled]):not([hidden])) #context-copylink {
+  display: none !important;
+}
+
+#context-copylink .menu-text,
+#context-stripOnShareLink .menu-text {
+  visibility: collapse !important;
+}
+
+#context-copylink::after,
+#context-stripOnShareLink::after {
+  content: "Copy Link" !important;
+  display: -moz-box !important;
+}

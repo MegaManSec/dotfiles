@@ -168,7 +168,6 @@ enter_directory() {
 
 }
 export PROMPT_COMMAND="$PROMPT_COMMAND; enter_directory"
-
 alias grpe=grep
 
 ntmp() {

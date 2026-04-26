@@ -149,6 +149,10 @@ urldecode() {
 # hcurl alias for header inspection
 alias hcurl='curl -sS -D - $1 -o /dev/null'
 
+# `gh` anti-tracking headers
+export GH_TELEMETRY=false
+export DO_NOT_TRACK=true
+
 # Ngrok completion
 if command -v ngrok &>/dev/null; then
   eval "$(ngrok completion)"

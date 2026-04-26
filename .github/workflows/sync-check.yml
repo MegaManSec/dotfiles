@@ -1,0 +1,39 @@
+name: sync-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare paired files between macos and freebsd
+        run: |
+          set -eu
+          pairs=(
+            "macos/Users/jrogers/.nanorc:freebsd/home/user/.nanorc"
+            "macos/Users/jrogers/.bash_profile:freebsd/home/user/.bash_profile"
+            "macos/Users/jrogers/.gitconfig:freebsd/home/user/.gitconfig"
+            "macos/Users/jrogers/.ssh:freebsd/home/user/.ssh"
+            "macos/usr/local/etc/blocked-hosts:freebsd/usr/local/etc/blocked-hosts"
+            "macos/usr/local/etc/cloaked-hosts:freebsd/usr/local/etc/cloaked-hosts"
+            "macos/usr/local/etc/forwarded-hosts:freebsd/usr/local/etc/forwarded-hosts"
+            "macos/usr/local/etc/nanorc:freebsd/usr/local/etc/nanorc"
+            "macos/usr/local/bin/multi_block_spam_hostnames:freebsd/usr/local/bin/multi_block_spam_hostnames"
+            "macos/usr/local/bin/body:freebsd/usr/local/bin/body"
+          )
+
+          status=0
+          for pair in "${pairs[@]}"; do
+            a=${pair%%:*}
+            b=${pair##*:}
+            if ! diff -r --brief --exclude=brew "$a" "$b"; then
+              echo "::error::$a and $b differ"
+              diff -ru --exclude=brew "$a" "$b" || true
+              status=1
+            fi
+          done
+          exit $status

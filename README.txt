@@ -32,3 +32,15 @@ The following files should be kept in sync:
 ./macos/usr/local/bin/body
 ./freebsd/usr/local/bin/body
 
+./macos/Users/jrogers/.npmrc
+./freebsd/home/user/.npmrc
+
+./macos/Users/jrogers/.yarnrc.yml
+./freebsd/home/user/.yarnrc.yml
+
+./macos/Users/jrogers/.config/uv/uv.toml
+./freebsd/home/user/.config/uv/uv.toml
+
+./macos/Users/jrogers/Library/Preferences/pnpm/rc
+./freebsd/home/user/.config/pnpm/rc
+

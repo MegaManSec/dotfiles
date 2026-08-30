@@ -16,3 +16,5 @@
     committerDateIsAuthorDate = true
 [alias]
     rb = rebase --interactive
+[branch]
+    sort = -committerdate

@@ -55,8 +55,16 @@ then
   add_dns_if_missing "State:/Network/Service/net.pulsesecure.pulse.nc.main/DNS"
 fi
 
+if [ -d /Applications/Tailscale.app ] && [ "$(/usr/bin/defaults read \
+  io.tailscale.ipn.macsys.network-extension UseTailscaleDNSSettings 2>/dev/null)" != "never" ]
+then
+  /usr/bin/defaults write io.tailscale.ipn.macsys.network-extension \
+    UseTailscaleDNSSettings -string never
+fi
+
 if /usr/sbin/networksetup -listallnetworkservices 2>/dev/null \
   | sed '1d;s/^\* //' | grep -Fxq "Wi-Fi"
 then
   /usr/sbin/networksetup -setdnsservers "Wi-Fi" 127.0.0.1
+  /usr/sbin/networksetup -setsearchdomains "Wi-Fi" codomain.cohere.ai tail5566.ts.net
 fi

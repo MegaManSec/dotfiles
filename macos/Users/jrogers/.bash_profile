@@ -19,7 +19,8 @@ case "$OSTYPE" in
   darwin*)
     chflags uappnd ~/.bash_history
     complete -W "NSGlobalDomain" defaults
-    shopt -s histappend checkwinsize cmdhist dirspell globstar histappend
+    shopt -s histappend checkwinsize cmdhist
+    shopt -s dirspell globstar 2>/dev/null
     shopt -u cdspell nocaseglob
     export LC_COLLATE=C
     export LC_CTYPE=en_US.UTF-8
@@ -158,20 +159,6 @@ if command -v ngrok &>/dev/null; then
   eval "$(ngrok completion)"
 fi
 
-enter_directory() {
-  if [[ "$PWD" == "$PREV_PWD" ]]; then
-    return
-  fi
-  PREV_PWD="$PWD"
-  if [[ -r ".git/config" ]] && grep -qi 'git@github.com:MegaManSec' .git/config; then
-    git_email="MegaManSec@users.noreply.github.com"
-    grep -q -- "$git_email" ".git/config" && return
-    git config --local commit.gpgsign false
-    git config user.email "$git_email" && echo "Set git email address to $git_email!"
-  fi
-
-}
-export PROMPT_COMMAND="$PROMPT_COMMAND; enter_directory"
 alias grpe=grep
 
 ntmp() {
@@ -182,3 +169,17 @@ ntmp() {
   eval "$editor \"\$f\""
   [ -s "$f" ] && printf '%s\n' "$f" || rm -f "$f"
 }
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+if [[ -s "$NVM_DIR/nvm.sh" ]]; then
+  source "$NVM_DIR/nvm.sh"
+  [[ -r "$NVM_DIR/bash_completion" ]] && source "$NVM_DIR/bash_completion"
+elif [[ -s "${HOMEBREW_PREFIX:-}/opt/nvm/nvm.sh" ]]; then
+  source "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"
+  [[ -r "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ]] && source "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"
+fi
+
+[[ -d "$HOME/.local/bin" ]] && PATH="$HOME/.local/bin:$PATH"
+
+[[ -r "$HOME/.bash_profile.local" ]] && source "$HOME/.bash_profile.local"

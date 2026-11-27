@@ -1,0 +1,40 @@
+[url "ssh://git@github.com-weareaisle/weareaisle/"]
+    insteadOf = git@github.com:weareaisle/
+    insteadOf = ssh://git@github.com/weareaisle/
+    insteadOf = https://github.com/weareaisle/
+[url "ssh://git@github.com-aisle-anteater/aisle-anteater/"]
+    insteadOf = git@github.com:aisle-anteater/
+    insteadOf = ssh://git@github.com/aisle-anteater/
+    insteadOf = https://github.com/aisle-anteater/
+[url "ssh://git@github.com-cohere-ai/cohere-ai/"]
+    insteadOf = git@github.com:cohere-ai/
+    insteadOf = ssh://git@github.com/cohere-ai/
+    insteadOf = https://github.com/cohere-ai/
+[includeIf "hasconfig:remote.*.url:git@github.com:weareaisle/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:ssh://git@github.com/weareaisle/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:https://github.com/weareaisle/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:git@github.com:aisle-anteater/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:ssh://git@github.com/aisle-anteater/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:https://github.com/aisle-anteater/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:git@github.com:cohere-ai/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:ssh://git@github.com/cohere-ai/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:https://github.com/cohere-ai/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:git@github.com-*:*/**"]
+    path = ~/.gitconfig.work
+[includeIf "hasconfig:remote.*.url:ssh://git@github.com-*/**"]
+    path = ~/.gitconfig.work
+[credential "https://github.com"]
+    helper =
+    helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+    helper =
+    helper = !gh auth git-credential

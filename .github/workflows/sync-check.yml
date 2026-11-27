@@ -27,8 +27,11 @@ jobs:
             "macos/usr/local/bin/body:freebsd/usr/local/bin/body"
             "macos/Users/jrogers/.npmrc:freebsd/home/user/.npmrc"
             "macos/Users/jrogers/.yarnrc.yml:freebsd/home/user/.yarnrc.yml"
+            "macos/Users/jrogers/.yarnrc:freebsd/home/user/.yarnrc"
             "macos/Users/jrogers/.config/uv/uv.toml:freebsd/home/user/.config/uv/uv.toml"
             "macos/Users/jrogers/Library/Preferences/pnpm/rc:freebsd/home/user/.config/pnpm/rc"
+            "macos/Users/jrogers/Library/Application Support/Firefox/Profiles/escb03o9.default-release/user.js:freebsd/home/user/.mozilla/firefox/escb03o9.default-release/user.js"
+            "macos/Users/jrogers/Library/Application Support/Firefox/Profiles/escb03o9.default-release/chrome:freebsd/home/user/.mozilla/firefox/escb03o9.default-release/chrome"
           )
 
           status=0

@@ -7,17 +7,17 @@
 /* Send Link to Device */
 #context-sendlinktodevice,
 
-/* Translate Selection to ... */
-#context-translate-selection,
-
-/* Separator below "Translate Selection to ... */
-#frame-sep,
-
 /* Separator above "Send Link to Device" */
 #context-sep-sendlinktodevice,
 
 /* Print Selection... */
 #context-print-selection,
+
+/* Translate Selection to ... */
+#context-translate-selection,
+
+/* Separator below "Translate Selection to ... */
+#frame-sep,
 
 /* Take Screenshot */
 #context-take-screenshot,
@@ -88,5 +88,28 @@
 #context-copylink::after,
 #context-stripOnShareLink::after {
   content: "Copy Link" !important;
+  display: -moz-box !important;
+}
+
+
+#context-copy-clean-link-to-highlight[disabled],
+#context-copy-clean-link-to-highlight[hidden],
+#context-copy-link-to-highlight[hidden] {
+  display: none !important;
+}
+
+#contentAreaContextMenu:has(#context-copy-clean-link-to-highlight:not([disabled]):not([hidden]))
+  #context-copy-link-to-highlight {
+  display: none !important;
+}
+
+#context-copy-link-to-highlight .menu-text,
+#context-copy-clean-link-to-highlight .menu-text {
+  visibility: collapse !important;
+}
+
+#context-copy-link-to-highlight::after,
+#context-copy-clean-link-to-highlight::after {
+  content: "Copy Link to Highlight" !important;
   display: -moz-box !important;
 }

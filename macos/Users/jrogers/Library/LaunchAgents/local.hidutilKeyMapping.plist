@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>local.hidutilKeyMapping</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/hidutil</string>
+        <string>property</string>
+        <string>--matching</string>
+        <string>{"Built-In":true,"PrimaryUsagePage":1,"PrimaryUsage":6}</string>
+        <string>--set</string>
+        <string>{
+            "UserKeyMapping": [
+                {
+                    "HIDKeyboardModifierMappingSrc":0x700000035,
+                    "HIDKeyboardModifierMappingDst":0x700000064
+                },
+                {
+                    "HIDKeyboardModifierMappingSrc":0x700000064,
+                    "HIDKeyboardModifierMappingDst":0x700000035
+                }
+            ]
+        }</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>LimitLoadToSessionType</key>
+    <array>
+        <string>Aqua</string>
+    </array>
+</dict>
+</plist>
